@@ -14,6 +14,7 @@
 }
 
 .vaddonz-header {
+    font-size: 11px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,17 +25,16 @@
 .vaddonz-title {
     padding: 6px 0px 6px 0px;
     text-align: center;
-    font-weight: bold;
     font-size: 1.1em;
     user-select: text;
-    color: #fff;
+    color: beige;
 }
 
 .vaddonz-btn {
   background: none;
   border: none;
   color: #ccc;
-  cursor: pointer;
+  cursor: url(../img/gui/cursor/5n.png?v=1752067625595) 4 0,url(../img/gui/cursor/5n.cur?v=1752067625595) 4 0,auto;
   font-size: 1.2em;
   padding: 2px 8px;
   transition: color 0.2s ease;
