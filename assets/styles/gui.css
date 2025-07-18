@@ -1,72 +1,42 @@
-.vaddonz-window {
-    position: fixed;
-    top: 50px;
-    right: 20px;
-    width: 640px;
-    background-color: black;
-    color: #eee;
-    border-radius: 8px;
-    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
-    font-family: Arial, sans-serif;
-    user-select: none;
-    z-index: 9999;
+.vaddonz-content {
+  display: flex;
+  padding: 12px;
+  font-size: 0.9em;
+  color: #ddd;
+  height: 300px;
+  box-sizing: border-box;
 }
 
-.vaddonz-window.vaddonz-opacity0 {
-    background: 0 0;
+.vaddonz-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  border-right: 1px solid #444;
+  padding-right: 8px;
+  box-sizing: border-box;
 }
 
-.vaddonz-window.vaddonz-opacity1 {
-  background: #0000004d;
-}
-
-.vaddonz-window.vaddonz-opacity2 {
-  background: #0009;
-}
-
-.vaddonz-window.vaddonz-opacity3 {
-  background: #000c;
-}
-
-.vaddonz-window.vaddonz-opacity4 {
-  background: #000;
-}
-
-
-.vaddonz-header {
-    font-size: 11px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.vaddonz-title {
-    padding: 6px 0px 6px 0px;
-    text-align: center;
-    font-size: 1.1em;
-    user-select: text;
-    color: beige;
-}
-
-.vaddonz-btn {
-  background: none;
-  border: none;
+.vaddonz-tab {
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  background: #222;
   color: #ccc;
-  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
-  font-size: 1.2em;
-  padding: 2px 8px;
-  transition: color 0.2s ease;
+  transition: background 0.3s, color 0.3s;
 }
 
-.vaddonz-btn:hover {
+.vaddonz-tab:hover {
+  background: #555;
   color: #fff;
 }
 
-.vaddonz-content {
-  padding: 12px;
-  font-size: 0.9em;
+.vaddonz-main-content {
+  flex-grow: 1;
+  padding-left: 12px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: transparent;
   color: #ddd;
 }
