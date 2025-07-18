@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -34,7 +35,7 @@
   background: none;
   border: none;
   color: #ccc;
-  cursor: url(../img/gui/cursor/5n.png?v=1752067625595) 4 0,url(../img/gui/cursor/5n.cur?v=1752067625595) 4 0,auto;
+  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
   font-size: 1.2em;
   padding: 2px 8px;
   transition: color 0.2s ease;
