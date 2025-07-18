@@ -12,6 +12,27 @@
     z-index: 9999;
 }
 
+.vaddonz-window.vaddonz-opacity0 {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.vaddonz-window.vaddonz-opacity1 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.vaddonz-window.vaddonz-opacity2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vaddonz-window.vaddonz-opacity3 {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.vaddonz-window.vaddonz-opacity4 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
 .vaddonz-header {
     font-size: 11px;
     display: flex;
