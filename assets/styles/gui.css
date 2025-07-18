@@ -75,25 +75,37 @@
 }
 
 .vaddonz-tabs {
-    display: flex;
-    flex-direction: column;
-    width: 145px;
-    border-right: 1px solid #444;
-    padding-right: 8px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+  border-right: 1px solid #444;
+  padding-right: 8px;
+  box-sizing: border-box;
 }
 
 .vaddonz-tab {
-    padding: 8px 12px;
-    cursor: pointer;
-    user-select: none;
-    border-radius: 5px;
-    border: 1px solid #7f7f7f78;
-    margin-bottom: 6px;
-    background: #22222299;
-    color: white;
-    transition: background 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f78;
+  margin-bottom: 6px;
+  background: #22222299;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+  font-size: 14px;
 }
+
+.vaddonz-tab i {
+  width: 18px;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
 
 .vaddonz-tab:hover {
   background: #555;
