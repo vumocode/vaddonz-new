@@ -1,35 +1,33 @@
-.vaddonz-panel {
-  position: fixed;
-  top: 50px;
-  right: 20px;
-  width: 300px;
-  background-color: #222;
-  color: #eee;
-  border-radius: 8px;
-  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+.vaddonz-window {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    background-color: #000000;
+    color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
     font-family: Arial, sans-serif;
-  font-family: Arial, sans-serif;
-  user-select: none;
-  z-index: 9999;
+    font-family: Arial, sans-serif;
+    user-select: none;
+    z-index: 9999;
 }
 
-.vaddonz-panel-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 12px;
-  background-color: #333;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+.vaddonz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-.vaddonz-panel-title {
-  flex-grow: 1;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1em;
-  user-select: text;
-  color: #fff;
+.vaddonz-title {
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    user-select: text;
+    color: #fff;
 }
 
 .vaddonz-btn {
@@ -46,7 +44,7 @@
   color: #fff;
 }
 
-.vaddonz-panel-content {
+.vaddonz-content {
   padding: 12px;
   font-size: 0.9em;
   color: #ddd;
