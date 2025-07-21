@@ -23,11 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 0px 4px 0px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    box-sizing: border-box;
-    gap: 8px;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     font-size: 11px;
 }
@@ -61,6 +58,14 @@
   padding: 2px 8px;
   transition: color 0.2s ease;
   cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+}
+
+.vaddonz-btn.close{
+
+}
+
+.vaddonz-btn.opacity{
+
 }
 
 .vaddonz-btn:hover {
