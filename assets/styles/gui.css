@@ -1,19 +1,19 @@
 .vaddonz-window {
-  cursor: url(../img/cursor/1n.png), auto;
-  backdrop-filter: blur(2px);
-  position: fixed;
-  top: 50px;
-  right: 20px;
-  width: 640px;
-  background-color: black;
-  color: #eee;
-  border-radius: 8px;
-  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
+    cursor: url(../img/cursor/1n.png), auto;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 700px;
+    background-color: black;
+    color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
-  font-family: Arial, sans-serif;
-  user-select: none;
-  z-index: 9999;
-  box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    user-select: none;
+    z-index: 9999;
+    box-sizing: border-box;
 }
 
 .vaddonz-window.vaddonz-opacity0 {
