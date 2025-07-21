@@ -30,11 +30,16 @@
   background: #000;
 }
 
-.vaddonz-window-header {
-  text-align: center;
+.vaddonz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277)
+      5 -5,
+    auto;
   font-size: 11px;
-  color: beige;
-  line-height: 25px;
 }
 
 .vaddonz-window-controls {
