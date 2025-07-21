@@ -137,3 +137,16 @@
   overflow-y: auto;
   color: white;
 }
+
+.vaddonz-addons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.vaddonz-addon-tile {
+    height: 50px;
+    background: #22222299;
+    border: 1px solid #7f7f7f78;
+}
