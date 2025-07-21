@@ -37,9 +37,7 @@
 
 .vaddonz-window-controls.left,
 .vaddonz-window-controls.right {
-  display: flex;
-  align-items: center;
-  gap: 4px;
+
 }
 
 .vaddonz-window-header {
