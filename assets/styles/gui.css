@@ -64,19 +64,14 @@
 }
 
 .vaddonz-btn {
-  background: none;
-  border: none;
-  color: #ccc;
-  font-size: 1.2em;
-  padding: 2px 8px;
-  transition: color 0.2s ease;
-  cursor: url(../img/cursor/5n.png) 5 -5, auto;
+    border: none;
+    cursor: url(../img/cursor/5n.png) 5 -5, auto;
 }
 
 .vaddonz-btn.close {
   background: url(../img/buttony.png) -624px -117px;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
 }
 
 .vaddonz-btn.close:hover {
@@ -84,13 +79,13 @@
 }
 
 .vaddonz-btn.opacity {
-  background: url(../img/buttony.png) -725px -131px;
-  width: 15px;
-  height: 15px;
+    background: url(../img/buttony.png) -725px -131px;
+    width: 13px;
+    height: 13px;
 }
 
-.vaddonz-btn:hover {
-  color: #fff;
+.vaddonz-btn.opacity:hover {
+  filter: brightness(1.3);
 }
 
 .vaddonz-content {
