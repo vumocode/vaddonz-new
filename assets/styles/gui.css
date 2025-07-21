@@ -30,14 +30,20 @@
   background: #000;
 }
 
-.vaddonz-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  cursor: url(../img/cursor/5n.png) 5 -5, auto;
-  font-size: 11px;
+.vaddonz-window-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: url(../img/cursor/1n.png), auto;
+    font-size: 11px;
+}
+
+.vaddonz-window-title {
+    cursor: url(../img/cursor/4n.png) 0 18, auto;
+    text-align: center;
+    color: beige;
 }
 
 .vaddonz-window-controls {
@@ -53,11 +59,6 @@
 
 .vaddonz-window-controls.right {
   justify-content: right;
-}
-
-.vaddonz-window-header {
-  text-align: center;
-  color: beige;
 }
 
 .vaddonz-btn {
