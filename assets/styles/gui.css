@@ -1,65 +1,68 @@
 .vaddonz-window {
-    position: fixed;
-    top: 50px;
-    right: 20px;
-    width: 640px;
-    background-color: black;
-    color: #eee;
-    border-radius: 8px;
-    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
-    font-family: Arial, sans-serif;
-    user-select: none;
-    z-index: 9999;
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 640px;
+  background-color: black;
+  color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  z-index: 9999;
+  box-sizing: border-box;
 }
 
-.vaddonz-window.vaddonz-opacity0 {
-    background: 0 0;
-}
-
-.vaddonz-window.vaddonz-opacity1 {
-  background: #0000004d;
-}
-
-.vaddonz-window.vaddonz-opacity2 {
-  background: #0009;
-}
-
-.vaddonz-window.vaddonz-opacity3 {
-  background: #000c;
-}
-
-.vaddonz-window.vaddonz-opacity4 {
-  background: #000;
-}
-
+.vaddonz-window.vaddonz-opacity0 { background: 0 0; }
+.vaddonz-window.vaddonz-opacity1 { background: #0000004d; }
+.vaddonz-window.vaddonz-opacity2 { background: #0009; }
+.vaddonz-window.vaddonz-opacity3 { background: #000c; }
+.vaddonz-window.vaddonz-opacity4 { background: #000; }
 
 .vaddonz-header {
-    white-space: nowrap;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
-    height: 25px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: #111;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-sizing: border-box;
+  gap: 8px;
+  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+  font-size: 11px;
 }
 
-.vaddonz-title {
-    padding: 6px 0px 6px 0px;
-    text-align: center;
-    font-size: 1.1em;
-    user-select: text;
-    color: beige;
+.vaddonz-window-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vaddonz-window-controls.left {
+  justify-content: flex-start;
+}
+
+.vaddonz-window-controls.right {
+  justify-content: flex-end;
+}
+
+.vaddonz-window-header {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.1em;
+  color: beige;
+  user-select: text;
 }
 
 .vaddonz-btn {
   background: none;
   border: none;
   color: #ccc;
-  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
   font-size: 1.2em;
   padding: 2px 8px;
   transition: color 0.2s ease;
+  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
 .vaddonz-btn:hover {
@@ -98,6 +101,7 @@
   color: white;
   transition: background 0.3s, color 0.3s;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 .vaddonz-tab i {
@@ -107,7 +111,6 @@
   opacity: 0.85;
 }
 
-
 .vaddonz-tab:hover {
   background: #55555570;
 }
@@ -115,7 +118,7 @@
 .vaddonz-main-content {
   flex-grow: 1;
   padding-left: 12px;
-  box-sizing: border-box;
   overflow-y: auto;
   color: #ddd;
+  box-sizing: border-box;
 }
