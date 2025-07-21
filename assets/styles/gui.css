@@ -36,9 +36,7 @@
   justify-content: space-between;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277)
-      5 -5,
-    auto;
+  cursor: url(../img/cursor/5n.png) 5 -5, auto;
   font-size: 11px;
 }
 
@@ -58,11 +56,8 @@
 }
 
 .vaddonz-window-header {
-  flex-grow: 1;
   text-align: center;
-  font-size: 1.1em;
   color: beige;
-  user-select: text;
 }
 
 .vaddonz-btn {
@@ -72,15 +67,17 @@
   font-size: 1.2em;
   padding: 2px 8px;
   transition: color 0.2s ease;
-  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277)
-      5 -5,
-    auto;
+  cursor: url(../img/cursor/5n.png) 5 -5, auto;
 }
 
 .vaddonz-btn.close {
   background: url(../img/buttony.png) -624px -117px;
   width: 15px;
   height: 15px;
+}
+
+.vaddonz-btn.close:hover {
+  background-position: -726px -117px;
 }
 
 .vaddonz-btn.opacity {
