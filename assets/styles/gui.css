@@ -6,38 +6,50 @@
   background-color: black;
   color: #eee;
   border-radius: 8px;
-  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
+    1px 1px 2px 2px #0c0d0d66;
   font-family: Arial, sans-serif;
   user-select: none;
   z-index: 9999;
   box-sizing: border-box;
 }
 
-.vaddonz-window.vaddonz-opacity0 { background: 0 0; }
-.vaddonz-window.vaddonz-opacity1 { background: #0000004d; }
-.vaddonz-window.vaddonz-opacity2 { background: #0009; }
-.vaddonz-window.vaddonz-opacity3 { background: #000c; }
-.vaddonz-window.vaddonz-opacity4 { background: #000; }
+.vaddonz-window.vaddonz-opacity0 {
+  background: 0 0;
+}
+.vaddonz-window.vaddonz-opacity1 {
+  background: #0000004d;
+}
+.vaddonz-window.vaddonz-opacity2 {
+  background: #0009;
+}
+.vaddonz-window.vaddonz-opacity3 {
+  background: #000c;
+}
+.vaddonz-window.vaddonz-opacity4 {
+  background: #000;
+}
 
-.vaddonz-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
-    font-size: 11px;
+.vaddonz-window-header {
+  text-align: center;
+  font-size: 11px;
+  color: beige;
+  line-height: 25px;
 }
 
 .vaddonz-window-controls {
+  width: 40px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  padding: 6px;
 }
 
-.vaddonz-window-controls.left,
-.vaddonz-window-controls.right {
+.vaddonz-window-controls.left {
+  justify-content: left;
+}
 
+.vaddonz-window-controls.right {
+  justify-content: right;
 }
 
 .vaddonz-window-header {
@@ -55,19 +67,21 @@
   font-size: 1.2em;
   padding: 2px 8px;
   transition: color 0.2s ease;
-  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+  cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277)
+      5 -5,
+    auto;
 }
 
 .vaddonz-btn.close {
-    background: url(../img/buttony.png) -624px -117px;
-    width: 15px;
-    height: 15px;
+  background: url(../img/buttony.png) -624px -117px;
+  width: 15px;
+  height: 15px;
 }
 
 .vaddonz-btn.opacity {
-    background: url(../img/buttony.png) -725px -131px;
-    width: 15px;
-    height: 15px;
+  background: url(../img/buttony.png) -725px -131px;
+  width: 15px;
+  height: 15px;
 }
 
 .vaddonz-btn:hover {
