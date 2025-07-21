@@ -58,12 +58,16 @@
   cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-.vaddonz-btn.close{
-
+.vaddonz-btn.close {
+    background: url(../img/buttony.png) -624px -117px;
+    width: 15px;
+    height: 15px;
 }
 
-.vaddonz-btn.opacity{
-
+.vaddonz-btn.opacity {
+    background: url(../img/buttony.png) -725px -131px;
+    width: 15px;
+    height: 15px;
 }
 
 .vaddonz-btn:hover {
