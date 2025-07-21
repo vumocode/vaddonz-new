@@ -34,11 +34,12 @@
 
 
 .vaddonz-header {
-    font-size: 11px;
+    white-space: nowrap;
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    height: 25px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
