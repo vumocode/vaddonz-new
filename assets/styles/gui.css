@@ -105,11 +105,11 @@
 }
 
 .vaddonz-tab {
+  cursor: url(../img/cursor/5n.png) 5 -5, auto;
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
-  cursor: pointer;
   user-select: none;
   border-radius: 5px;
   border: 1px solid #7f7f7f78;
