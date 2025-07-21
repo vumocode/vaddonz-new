@@ -94,9 +94,8 @@
 
 .vaddonz-content {
     display: flex;
-    padding: 5px 5px 5px 5px;
     color: #ddd;
-    height: 375px;
+    height: 282px;
     box-sizing: border-box;
 }
 
@@ -137,9 +136,8 @@
 }
 
 .vaddonz-main-content {
-    flex-grow: 1;
-    padding-left: 12px;
+    padding: 5px;
+    width: 100%;
     overflow-y: auto;
-    color: #ddd;
-    box-sizing: border-box;
+    color: white;
 }
