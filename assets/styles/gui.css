@@ -1,18 +1,19 @@
 .vaddonz-window {
-    backdrop-filter: blur(2px);
-    position: fixed;
-    top: 50px;
-    right: 20px;
-    width: 640px;
-    background-color: black;
-    color: #eee;
-    border-radius: 8px;
-    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
+  cursor: url(../img/cursor/1n.png), auto;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 640px;
+  background-color: black;
+  color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
-    font-family: Arial, sans-serif;
-    user-select: none;
-    z-index: 9999;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  z-index: 9999;
+  box-sizing: border-box;
 }
 
 .vaddonz-window.vaddonz-opacity0 {
@@ -32,20 +33,19 @@
 }
 
 .vaddonz-window-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    cursor: url(../img/cursor/1n.png), auto;
-    font-size: 11px;
-    border-bottom: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 11px;
+  border-bottom: 1px solid #444;
 }
 
 .vaddonz-window-title {
-    cursor: url(../img/cursor/4n.png) 12 12, auto;
-    text-align: center;
-    color: beige;
+  cursor: url(../img/cursor/4n.png) 12 12, auto;
+  text-align: center;
+  color: beige;
 }
 
 .vaddonz-window-controls {
@@ -64,8 +64,8 @@
 }
 
 .vaddonz-btn {
-    border: none;
-    cursor: url(../img/cursor/5n.png) 5 -5, auto;
+  border: none;
+  cursor: url(../img/cursor/5n.png) 5 -5, auto;
 }
 
 .vaddonz-btn.close {
@@ -79,9 +79,9 @@
 }
 
 .vaddonz-btn.opacity {
-    background: url(../img/buttony.png) -725px -131px;
-    width: 13px;
-    height: 13px;
+  background: url(../img/buttony.png) -725px -131px;
+  width: 13px;
+  height: 13px;
 }
 
 .vaddonz-btn.opacity:hover {
@@ -89,35 +89,35 @@
 }
 
 .vaddonz-content {
-    display: flex;
-    color: #ddd;
-    height: 282px;
-    box-sizing: border-box;
+  display: flex;
+  color: #ddd;
+  height: 282px;
+  box-sizing: border-box;
 }
 
 .vaddonz-tabs {
-    display: flex;
-    flex-direction: column;
-    width: 145px;
-    gap: 5px;
-    border-right: 1px solid #444;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+  gap: 5px;
+  border-right: 1px solid #444;
+  padding: 5px;
 }
 
 .vaddonz-tab {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    cursor: pointer;
-    user-select: none;
-    border-radius: 5px;
-    border: 1px solid #7f7f7f78;
-    background: #22222299;
-    color: white;
-    transition: background 0.3s, color 0.3s;
-    font-size: 12px;
-    box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f78;
+  background: #22222299;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+  font-size: 12px;
+  box-sizing: border-box;
 }
 
 .vaddonz-tab i {
@@ -132,8 +132,8 @@
 }
 
 .vaddonz-main-content {
-    padding: 5px;
-    width: 100%;
-    overflow-y: auto;
-    color: white;
+  padding: 5px;
+  width: 100%;
+  overflow-y: auto;
+  color: white;
 }
