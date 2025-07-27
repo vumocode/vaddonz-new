@@ -30,14 +30,15 @@
 }
 
 .vaddonz-window-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  font-size: 11px;
-  border-bottom: 1px solid #444;
-  height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 11px;
+    border-bottom: 1px solid #444;
+    height: 25px;
+    flex: 1;
 }
 
 .vaddonz-header-title {
