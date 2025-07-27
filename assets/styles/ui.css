@@ -2,9 +2,6 @@
     cursor: url(../img/cursor/1n.png), auto;
     backdrop-filter: blur(2px);
     position: fixed;
-    top: 50px;
-    right: 20px;
-    width: 700px;
     background-color: black;
     color: #eee;
     border-radius: 8px;
