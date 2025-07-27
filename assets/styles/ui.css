@@ -40,24 +40,24 @@
   height: 25px;
 }
 
-.vaddonz-window-title {
+.vaddonz-header-title {
   cursor: url(../img/cursor/4n.png) 12 12, auto;
   text-align: center;
   color: beige;
 }
 
-.vaddonz-window-controls {
+.vaddonz-header-controls {
   width: 40px;
   display: flex;
   align-items: center;
   padding: 6px;
 }
 
-.vaddonz-window-controls.left {
+.vaddonz-header-controls.left {
   justify-content: left;
 }
 
-.vaddonz-window-controls.right {
+.vaddonz-header-controls.right {
   justify-content: right;
 }
 
