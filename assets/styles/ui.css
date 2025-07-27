@@ -1,5 +1,5 @@
 .vaddonz-window {
-    cursor: url(../img/cursor/1n.png), auto;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
     backdrop-filter: blur(2px);
     position: fixed;
     background-color: black;
@@ -42,7 +42,7 @@
 }
 
 .vaddonz-header-title {
-  cursor: url(../img/cursor/4n.png) 12 12, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/4n.png) 12 12, auto;
   text-align: center;
   color: beige;
 }
@@ -64,11 +64,11 @@
 
 .vaddonz-btn {
   border: none;
-  cursor: url(../img/cursor/5n.png) 5 -5, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
 }
 
 .vaddonz-btn.close {
-  background: url(../img/buttony.png) -624px -117px;
+  background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) -624px -117px;
   width: 13px;
   height: 13px;
 }
@@ -78,7 +78,7 @@
 }
 
 .vaddonz-btn.opacity {
-  background: url(../img/buttony.png) -725px -131px;
+  background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) -725px -131px;
   width: 13px;
   height: 13px;
 }
@@ -104,7 +104,7 @@
 }
 
 .vaddonz-tab {
-  cursor: url(../img/cursor/5n.png) 5 -5, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
   display: flex;
   align-items: center;
   gap: 8px;
