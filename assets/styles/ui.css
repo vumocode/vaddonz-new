@@ -146,6 +146,10 @@
   color: white;
 }
 
+.vaddonz-main {
+  display: flex;
+}
+
 .vaddonz-addons-container {
     display: flex;
     flex-wrap: wrap;
