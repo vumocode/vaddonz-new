@@ -100,3 +100,64 @@
     height: 100%;
     box-sizing: border-box;
 }
+
+.vaddonz-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+  gap: 5px;
+  border-right: 1px solid #444;
+  padding: 5px;
+}
+
+.vaddonz-tab {
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f78;
+  background: #22222299;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.vaddonz-tab i {
+  width: 18px;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.vaddonz-tab:hover {
+  background: #55555570;
+}
+
+.vaddonz-main-content {
+  padding: 5px;
+  width: 100%;
+  overflow-y: auto;
+  color: white;
+}
+
+.vaddonz-addons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.vaddonz-addon-tile {
+    display: flex;
+    height: 75px;
+    background: #22222299;
+    border: 1px solid #7f7f7f78;
+    padding: 5px;
+    justify-content: center;
+    width: 47%;
+    flex-direction: column;
+}
