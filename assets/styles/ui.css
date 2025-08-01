@@ -150,20 +150,12 @@
   
 }
 
-.vaddonz-addons-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 5px;
-}
-
-.vaddonz-addon-tile {
+.vaddonz-addon-card {
     display: flex;
     height: 75px;
     background: #22222299;
     border: 1px solid #7f7f7f78;
     padding: 5px;
-    justify-content: center;
     width: 47%;
     flex-direction: column;
 }
