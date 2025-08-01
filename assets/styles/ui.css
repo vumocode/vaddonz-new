@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+#vaddonz-manager {
+    flex-direction: column;
+}
+
 .vaddonz-window.vaddonz-opacity0 {
   background: 0 0;
 }
