@@ -151,6 +151,7 @@
 
 .vaddonz-main.dodatki {
     flex-wrap: wrap;
+    max-height: 264px;
     overflow-y: auto;
 }
 
