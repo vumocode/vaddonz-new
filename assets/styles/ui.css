@@ -208,15 +208,6 @@
   user-select: none;
 }
 
-.vaddonz-window {
-  overflow-y: auto;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  scrollbar-gutter: stable;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #575757 rgba(0, 0, 0, 0.8);
-}
-
 /* Chrome, Edge, Safari (WebKit) */
 .vaddonz-window::-webkit-scrollbar {
   width: 8px;
