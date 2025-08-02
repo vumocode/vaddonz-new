@@ -149,17 +149,23 @@
   gap: 5px;
 }
 
+.vaddonz-main.dodatki {
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
 .vaddonz-card {
-  display: flex;
-  height: 75px;
-  background: #22222299;
-  border: 1px solid #7f7f7f78;
-  padding: 5px;
-  width: 235px;
-  flex-direction: column;
+    display: flex;
+    height: 75px;
+    background: #22222299;
+    border: 1px solid #7f7f7f78;
+    padding: 5px;
+    width: 234px;
+    flex-direction: column;
 }
 
 .vaddonz-card-description {
+  padding-top: 2px;
 }
 
 .checkbox-vaddonz [type='checkbox'] {
