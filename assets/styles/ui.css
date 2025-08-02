@@ -1,22 +1,23 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 .vaddonz-window {
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
-    backdrop-filter: blur(2px);
-    position: fixed;
-    background-color: black;
-    color: #eee;
-    border-radius: 8px;
-    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png),
+    auto;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  background-color: black;
+  color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
-    font-family: Arial, sans-serif;
-    user-select: none;
-    z-index: 9999;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  z-index: 9999;
+  box-sizing: border-box;
 }
 
 #vaddonz-manager {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .vaddonz-window.vaddonz-opacity0 {
@@ -36,18 +37,20 @@
 }
 
 .vaddonz-window-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    font-size: 11px;
-    border-bottom: 1px solid #444;
-    height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 11px;
+  border-bottom: 1px solid #444;
+  height: 25px;
 }
 
 .vaddonz-header-title {
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/4n.png) 12 12, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/4n.png)
+      12 12,
+    auto;
   text-align: center;
   color: beige;
 }
@@ -69,7 +72,8 @@
 
 .vaddonz-btn {
   border: none;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 .vaddonz-btn.close {
@@ -93,14 +97,14 @@
 }
 
 .vaddonz-window-body {
-    flex: 1;
+  flex: 1;
 }
 
 .vaddonz-content {
-    display: flex;
-    color: #ddd;
-    height: 100%;
-    box-sizing: border-box;
+  display: flex;
+  color: #ddd;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .vaddonz-tabs {
@@ -113,7 +117,8 @@
 }
 
 .vaddonz-tab {
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -147,21 +152,20 @@
 }
 
 .vaddonz-main {
-    gap: 5px;
+  gap: 5px;
 }
 
 .vaddonz-card {
-    display: flex;
-    height: 75px;
-    background: #22222299;
-    border: 1px solid #7f7f7f78;
-    padding: 5px;
-    width: 185px;
-    flex-direction: column;
+  display: flex;
+  height: 75px;
+  background: #22222299;
+  border: 1px solid #7f7f7f78;
+  padding: 5px;
+  width: 185px;
+  flex-direction: column;
 }
 
-.vaddonz-card-description{
-  
+.vaddonz-card-description {
 }
 
 .checkbox-vaddonz [type="checkbox"] {
@@ -173,7 +177,7 @@
 }
 
 .checkbox-vaddonz [type="checkbox"] + label::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: calc(50% - 8px);
@@ -181,7 +185,7 @@
   height: 16px;
   border: 1px solid #545454;
   background: #545454;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.5) inset;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .checkbox-vaddonz [type="checkbox"]:checked + label::after {
@@ -190,17 +194,18 @@
 }
 
 .checkbox-vaddonz [type="checkbox"] + label::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: calc(50% - 8px);
   width: 16px;
   height: 16px;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") no-repeat center center;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e")
+    no-repeat center center;
   background-size: 100% 100%;
   opacity: 0;
   transform: scale(0.5);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .checkbox-vaddonz .c-checkbox__label {
