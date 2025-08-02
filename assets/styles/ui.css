@@ -156,10 +156,56 @@
     background: #22222299;
     border: 1px solid #7f7f7f78;
     padding: 5px;
-    width: 47%;
+    width: 185px;
     flex-direction: column;
 }
 
 .vaddonz-card-description{
   
+}
+
+.checkbox-vaddonz [type="checkbox"] {
+  display: none;
+}
+
+.checkbox-vaddonz [type="checkbox"]:checked + label {
+  color: #bebebe;
+}
+
+.checkbox-vaddonz [type="checkbox"] + label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: calc(50% - 8px);
+  width: 16px;
+  height: 16px;
+  border: 1px solid #545454;
+  background: #545454;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.5) inset;
+}
+
+.checkbox-vaddonz [type="checkbox"]:checked + label::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.checkbox-vaddonz [type="checkbox"] + label::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: calc(50% - 8px);
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") no-repeat center center;
+  background-size: 100% 100%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all .2s ease;
+}
+
+.checkbox-vaddonz .c-checkbox__label {
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  user-select: none;
 }
