@@ -102,29 +102,29 @@
 }
 
 .vaddonz-tabs {
-  display: flex;
-  flex-direction: column;
-  width: 170px;
-  gap: 5px;
-  border-right: 1px solid #444;
-  padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px;
+    border-right: 1px solid #444;
+    padding: 5px;
 }
 
 .vaddonz-tab {
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  width: 100%;
-  height: 13%;
-  user-select: none;
-  border-radius: 5px;
-  border: 1px solid #7f7f7f78;
-  background: #22222299;
-  color: white;
-  transition: background 0.3s, color 0.3s;
-  font-size: 12px;
-  box-sizing: border-box;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    height: 13%;
+    user-select: none;
+    border-radius: 5px;
+    border: 1px solid #7f7f7f78;
+    background: #22222299;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+    font-size: 12px;
+    box-sizing: border-box;
 }
 
 .vaddonz-tab i {
