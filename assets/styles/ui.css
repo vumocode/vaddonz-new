@@ -150,7 +150,9 @@
 }
 
 .vaddonz-main.dodatki {
+    justify-content: center;
     flex-wrap: wrap;
+    padding-right: 2px;
     max-height: 264px;
     overflow-y: auto;
 }
@@ -161,7 +163,7 @@
     background: #22222299;
     border: 1px solid #7f7f7f78;
     padding: 5px;
-    width: 234px;
+    width: 228px;
     flex-direction: column;
 }
 
