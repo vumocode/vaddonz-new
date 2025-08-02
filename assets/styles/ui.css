@@ -98,12 +98,13 @@
 .vaddonz-content {
     display: flex;
     color: #ddd;
+    height: 270px;
 }
 
 .vaddonz-tabs {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 135px;
     gap: 5px;
     border-right: 1px solid #444;
     padding: 5px;
@@ -142,14 +143,16 @@
 }
 
 .vaddonz-main {
-  gap: 5px;
+  
 }
 
 .vaddonz-main.dodatki {
     flex-wrap: wrap;
+    justify-content: center;
     padding-right: 4px;
-    max-height: 260px;
+    height: 100%;
     overflow-y: auto;
+    gap: 10px;
 }
 
 .vaddonz-card {
