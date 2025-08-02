@@ -156,17 +156,18 @@
 }
 
 .vaddonz-card {
-  display: flex;
-  height: 75px;
-  background: #22222299;
-  border: 1px solid #7f7f7f78;
-  padding: 5px;
-  width: 45%;
-  flex-direction: column;
+    display: flex;
+    height: 67px;
+    background: #22222299;
+    border: 1px solid #7f7f7f78;
+    padding: 5px;
+    width: 45%;
+    flex-direction: column;
 }
 
 .vaddonz-card-description {
-  padding-top: 2px;
+    padding-top: 2px;
+    font-size: 11px;
 }
 
 .checkbox-vaddonz [type='checkbox'] {
@@ -205,10 +206,11 @@
 }
 
 .checkbox-vaddonz .c-checkbox__label {
-  position: relative;
-  padding-left: 24px;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  user-select: none;
+    position: relative;
+    padding-left: 20px;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    user-select: none;
+    font-size: 12px;
 }
 
 /* Chrome, Edge, Safari (WebKit) */
