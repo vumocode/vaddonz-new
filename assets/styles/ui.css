@@ -177,8 +177,8 @@
   position: absolute;
   left: 0;
   top: calc(50% - 8px);
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   border: 1px solid #545454;
   background: #545454;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
@@ -194,8 +194,8 @@
   position: absolute;
   left: 0;
   top: calc(50% - 8px);
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e")
     no-repeat center center;
   background-size: 100% 100%;
