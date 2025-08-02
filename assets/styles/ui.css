@@ -172,10 +172,6 @@
   display: none;
 }
 
-.checkbox-vaddonz [type="checkbox"]:checked + label {
-  color: #bebebe;
-}
-
 .checkbox-vaddonz [type="checkbox"] + label::before {
   content: "";
   position: absolute;
