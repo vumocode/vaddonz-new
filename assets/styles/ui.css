@@ -208,28 +208,31 @@
   user-select: none;
 }
 
-/* --- Stylizacja dla WebKit (Chrome, Edge, Safari) --- */
+.vaddonz-window {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #575757 rgba(0, 0, 0, 0.8);
+}
+
+/* Chrome, Edge, Safari (WebKit) */
 .vaddonz-window::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 .vaddonz-window::-webkit-scrollbar-track {
-  background: #f0f0f0;
-  border-radius: 4px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .vaddonz-window::-webkit-scrollbar-thumb {
-  background-color: #999;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+  background: #575757;
 }
 
 .vaddonz-window::-webkit-scrollbar-thumb:hover {
-  background-color: #666;
+  background: #555;
 }
 
-/* --- Stylizacja dla Firefox --- */
-.vaddonz-window {
-  scrollbar-width: thin;                    /* thin | auto | none */
-  scrollbar-color: #999 #f0f0f0;            /* thumb, track */
-}
