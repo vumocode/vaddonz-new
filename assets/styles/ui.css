@@ -96,26 +96,27 @@
 }
 
 .vaddonz-content {
-    display: flex;
-    color: #ddd;
-    height: 270px;
+  display: flex;
+  color: #ddd;
+  height: 270px;
 }
 
 .vaddonz-tabs {
-    display: flex;
-    flex-direction: column;
-    width: 135px;
-    gap: 5px;
-    border-right: 1px solid #444;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  gap: 5px;
+  border-right: 1px solid #444;
+  padding: 5px;
 }
 
 .vaddonz-tab {
   cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
+  gap: 5px;
+  width: 100%;
+  height: 13%;
   user-select: none;
   border-radius: 5px;
   border: 1px solid #7f7f7f78;
@@ -138,31 +139,30 @@
 }
 
 .vaddonz-main-content {
-    padding: 5px;
-    color: white;
+  padding: 5px;
+  color: white;
 }
 
 .vaddonz-main {
-  
 }
 
 .vaddonz-main.dodatki {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-right: 4px;
-    height: 100%;
-    overflow-y: auto;
-    gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 4px;
+  height: 100%;
+  overflow-y: auto;
+  gap: 10px;
 }
 
 .vaddonz-card {
-    display: flex;
-    height: 75px;
-    background: #22222299;
-    border: 1px solid #7f7f7f78;
-    padding: 5px;
-    width: 47%;
-    flex-direction: column;
+  display: flex;
+  height: 75px;
+  background: #22222299;
+  border: 1px solid #7f7f7f78;
+  padding: 5px;
+  width: 45%;
+  flex-direction: column;
 }
 
 .vaddonz-card-description {
@@ -229,4 +229,3 @@
 .vaddonz-window::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
