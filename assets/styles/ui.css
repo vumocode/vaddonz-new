@@ -96,19 +96,17 @@
 }
 
 .vaddonz-content {
-  display: flex;
-  color: #ddd;
-  height: 100%;
-  box-sizing: border-box;
+    display: flex;
+    color: #ddd;
 }
 
 .vaddonz-tabs {
-  display: flex;
-  flex-direction: column;
-  width: 145px;
-  gap: 5px;
-  border-right: 1px solid #444;
-  padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 5px;
+    border-right: 1px solid #444;
+    padding: 5px;
 }
 
 .vaddonz-tab {
@@ -139,10 +137,9 @@
 }
 
 .vaddonz-main-content {
-  padding: 5px;
-  width: 100%;
-  overflow-y: auto;
-  color: white;
+    padding: 5px;
+    overflow-y: auto;
+    color: white;
 }
 
 .vaddonz-main {
@@ -151,7 +148,7 @@
 
 .vaddonz-main.dodatki {
     flex-wrap: wrap;
-    padding-right: 2px;
+    padding-right: 4px;
     max-height: 260px;
     overflow-y: auto;
 }
@@ -162,7 +159,7 @@
     background: #22222299;
     border: 1px solid #7f7f7f78;
     padding: 5px;
-    width: 228px;
+    width: 47%;
     flex-direction: column;
 }
 
