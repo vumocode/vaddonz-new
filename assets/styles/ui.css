@@ -258,3 +258,9 @@
 .vaddonz-btn.settings:hover {
   background-position: -659px -117px;
 }
+
+.vaddonz-btn.info {
+    width: 17px;
+    height: 17px;
+    background: url(../img/gui/buttony.png?v=1753438686037) no-repeat -497px -199px;
+}
