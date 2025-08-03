@@ -237,3 +237,20 @@
 .vaddonz-window::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.vaddonz-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vaddonz-card-controls.right {
+    display: flex;
+    width: 40px;
+    justify-content: right;
+}
+
+.vaddonz-btn.settings {
+    width: 13px;
+    height: 13px;
+    background: url("../img/gui/buttony.png?v=1753438686037") -607px -117px no-repeat;
+}
