@@ -244,6 +244,7 @@
 }
 
 .vaddonz-card-controls.right {
+    margin-top: -1px;
     display: flex;
     width: 40px;
     gap: 3px;
