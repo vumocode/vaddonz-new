@@ -246,7 +246,10 @@
 .vaddonz-card-controls.right {
     display: flex;
     width: 40px;
+    gap: 3px;
     justify-content: right;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .vaddonz-btn.settings {
@@ -260,7 +263,7 @@
 }
 
 .vaddonz-btn.info {
-    width: 17px;
-    height: 17px;
-    background: url(../img/gui/buttony.png?v=1753438686037) no-repeat -497px -199px;
+    width: 13px;
+    height: 13px;
+    background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
