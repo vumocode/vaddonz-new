@@ -254,3 +254,7 @@
     height: 13px;
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -607px -117px;
 }
+
+.vaddonz-btn.settings:hover {
+  background-position: -659px -117px;
+}
