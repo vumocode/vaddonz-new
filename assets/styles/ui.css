@@ -165,6 +165,10 @@
     flex-direction: column;
 }
 
+.vaddonz-card:hover {
+    background: #55555570;
+}
+
 .vaddonz-card-description {
     padding-top: 2px;
     font-size: 11px;
