@@ -181,15 +181,15 @@
 }
 
 .checkbox-vaddonz [type='checkbox'] + label::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: calc(50% - 8px);
-  width: 13px;
-  height: 13px;
-  border: 1px solid #545454;
-  background: #545454;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: calc(50% - 8px);
+    width: 13px;
+    height: 13px;
+    border: 1px solid #3b3b3b;
+    background: #292929;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .checkbox-vaddonz [type='checkbox']:checked + label::after {
