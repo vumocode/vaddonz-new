@@ -220,21 +220,21 @@
 }
 
 /* Chrome, Edge, Safari (WebKit) */
-.vaddonz-window::-webkit-scrollbar {
+.vaddonz-main.dodatki::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-.vaddonz-window::-webkit-scrollbar-track {
+.vaddonz-main.dodatki::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.205);
 }
 
-.vaddonz-window::-webkit-scrollbar-thumb {
+.vaddonz-main.dodatki::-webkit-scrollbar-thumb {
   background: #575757;
 }
 
-.vaddonz-window::-webkit-scrollbar-thumb:hover {
+.vaddonz-main.dodatki::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
