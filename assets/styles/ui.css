@@ -223,11 +223,12 @@
 .vaddonz-main.dodatki::-webkit-scrollbar {
   width: 8px;
   height: 8px;
+  border-radius: 10px;
 }
 
 .vaddonz-main.dodatki::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.205);
+  background: rgba(59, 59, 59, 0.205);
 }
 
 .vaddonz-main.dodatki::-webkit-scrollbar-thumb {
