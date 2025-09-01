@@ -291,6 +291,7 @@
     position: relative;
     width: 100%;
     height: 5px;
+    margin: 10px 0px 10px 0px;
     background: #474545;
     border-radius: 4px;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
