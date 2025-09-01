@@ -270,83 +270,130 @@
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
 
-/* --- Customowy slider vaddonz --- */
 .vaddonz-slider-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 12px 0;
-  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .vaddonz-slider-wrapper label {
-  margin-bottom: 4px;
+  display: block;
+  margin-bottom: 8px;
   font-size: 14px;
   color: #333;
 }
 
-.vaddonz-slider-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.vaddonz-slider {
+.vaddonz-slider-wrapper input[type="range"] {
   -webkit-appearance: none;
   width: 100%;
   height: 8px;
-  background: #888;
   border-radius: 4px;
+  background: #ccc; /* track color */
   outline: none;
   cursor: pointer;
 }
 
-.vaddonz-slider::-webkit-slider-thumb {
+.vaddonz-slider-wrapper input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #ccc;
   border-radius: 50%;
-  border: 2px solid #4CAF50;
-  cursor: url('https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png') 5 -5, auto;
-  transition: background 0.2s, transform 0.2s;
+  background: #888; /* default knob */
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  transition: background 0.2s ease-in-out;
+  position: relative;
+  margin-top: -6px; /* center knob on track */
 }
 
-.vaddonz-slider::-moz-range-thumb {
+.vaddonz-slider-wrapper input[type="range"]:hover::-webkit-slider-thumb {
+  background: #0f0; /* hover knob */
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #ccc;
   border-radius: 50%;
-  border: 2px solid #4CAF50;
-  cursor: url('https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png') 5 -5, auto;
-  transition: background 0.2s, transform 0.2s;
-}
-
-.vaddonz-slider::-webkit-slider-thumb:hover,
-.vaddonz-slider::-moz-range-thumb:hover {
-  background: #4CAF50;
-}
-
-.vaddonz-slider::-webkit-slider-runnable-track {
-  height: 8px;
   background: #888;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  transition: background 0.2s ease-in-out;
+  border: none;
+}
+
+.vaddonz-slider-wrapper input[type="range"]:hover::-moz-range-thumb {
+  background: #0f0;
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #888;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  transition: background 0.2s ease-in-out;
+  border: none;
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 4px;
+  background: #0f0; /* filled part */
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-moz-range-track {
+  height: 8px;
+  border-radius: 4px;
+  background: #ccc; /* track */
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-moz-range-progress {
+  background-color: #0f0; /* filled */
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-ms-track {
+  height: 8px;
+  border-radius: 4px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vaddonz-slider-wrapper input[type="range"]::-ms-fill-lower {
+  background: #0f0;
   border-radius: 4px;
 }
 
-.vaddonz-slider::-moz-range-track {
-  height: 8px;
-  background: #888;
+.vaddonz-slider-wrapper input[type="range"]::-ms-fill-upper {
+  background: #ccc;
   border-radius: 4px;
 }
 
-.vaddonz-slider-value {
+/* label nad kulką */
+.vaddonz-slider-label-container {
   position: absolute;
-  top: -28px;
-  left: 50%;
+  top: -30px;
+  width: 100%;
+  pointer-events: none;
+}
+
+.vaddonz-slider-label-container h4 {
+  position: absolute;
   transform: translateX(-50%);
   font-size: 12px;
-  color: #4CAF50;
-  font-weight: bold;
-  pointer-events: none;
-  user-select: none;
+  color: #0f0;
+  font-weight: 500;
+  transition: left 0.1s linear, transform 0.1s linear;
+}
+
+.vaddonz-slider-label-container h4 span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
