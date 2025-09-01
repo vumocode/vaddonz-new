@@ -103,7 +103,7 @@ padding: 10px;
 .vaddonz-content {
     display: flex;
     color: #ddd;
-    height: 300px;
+    height: auto;
 }
 
 .vaddonz-tabs {
@@ -121,7 +121,7 @@ padding: 10px;
     align-items: center;
     gap: 5px;
     width: 130px;
-    height: 12%;
+    height: 35px;
     user-select: none;
     border-radius: 5px;
     border: 1px solid #7f7f7f78;
