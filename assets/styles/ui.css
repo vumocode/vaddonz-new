@@ -102,6 +102,13 @@
     justify-content: center;
 }
 
+[id^="vaddonz-settings-"] .vaddonz-content {
+    display: flex;
+    color: #ddd;
+    height: auto;
+    flex-direction: column;
+}
+
 .vaddonz-content {
     display: flex;
     color: #ddd;
