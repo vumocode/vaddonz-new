@@ -313,15 +313,17 @@ padding: 10px;
     pointer-events: none;
 }
 
-.vaddonz-slider-wrapper:hover .baddonz-slider-thumb {
-  background: #0f0;
+.vaddonz-slider-value-display {
+  position: absolute;
+  top: 25px; /* pod suwakiem */
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
 }
 
-.vaddonz-slider-value-display {
-    position: absolute;
-    top: -25px;
-    transform: translateX(-50%);
-    font-size: 12px;
-    color: #0f0;
-    pointer-events: none;
+.vaddonz-slider-value-display.visible {
+  opacity: 1;
 }
