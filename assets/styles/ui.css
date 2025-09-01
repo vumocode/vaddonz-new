@@ -271,6 +271,12 @@
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
 
+.vaddonz-slider-label {
+  font-size: 14px;
+  color: #fff;
+  min-width: 80px;
+}
+
 .vaddonz-slider-wrapper {
     position: relative;
     width: 100%;
