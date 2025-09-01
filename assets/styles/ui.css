@@ -322,6 +322,7 @@
 
 .vaddonz-slider-thumb:hover {
     background: #0f0;
+    box-shadow: 0px 0px 5px 2px #3cfb3c;
 }
 
 .vaddonz-slider-value-display {
