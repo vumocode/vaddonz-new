@@ -277,9 +277,8 @@
 }
 
 .vaddonz-slider-label {
-  font-size: 14px;
-  color: #fff;
-  min-width: 80px;
+    font-size: 11px;
+    color: #ddd;
 }
 
 .vaddonz-slider-wrapper {
@@ -317,7 +316,7 @@
 
 .vaddonz-slider-value-display {
   position: absolute;
-  top: 25px; /* pod suwakiem */
+  top: 25px;
   transform: translateX(-50%);
   font-size: 12px;
   color: #fff;
