@@ -311,7 +311,6 @@
     background: #888;
     border-radius: 50%;
     transition: background 0.2s;
-    pointer-events: none;
 }
 
 .vaddonz-slider-value-display {
