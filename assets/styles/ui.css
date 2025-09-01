@@ -269,3 +269,101 @@
     height: 13px;
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
+
+.vaddonz-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vaddonz-slider-wrapper label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.vaddonz-slider-wrapper .vaddonz-slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+}
+
+.vaddonz-slider-wrapper .vaddonz-slider-value {
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+input[type=range].vaddonz-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #aaa;
+  border-radius: 50%;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  transition: background 0.2s;
+  border: 2px solid #0f0;
+  margin-top: -8px;
+}
+
+input[type=range].vaddonz-slider::-webkit-slider-thumb:hover {
+  background: #0f0;
+}
+
+input[type=range].vaddonz-slider::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #888;
+  border-radius: 4px;
+}
+
+input[type=range].vaddonz-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #aaa;
+  border-radius: 50%;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  transition: background 0.2s;
+  border: 2px solid #0f0;
+}
+
+input[type=range].vaddonz-slider::-moz-range-thumb:hover {
+  background: #0f0;
+}
+
+input[type=range].vaddonz-slider::-moz-range-track {
+  height: 8px;
+  background: #888;
+  border-radius: 4px;
+}
+
+input[type=range].vaddonz-slider::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #aaa;
+  border-radius: 50%;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  border: 2px solid #0f0;
+}
+
+input[type=range].vaddonz-slider::-ms-thumb:hover {
+  background: #0f0;
+}
+
+input[type=range].vaddonz-slider::-ms-track {
+  height: 8px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range].vaddonz-slider::-ms-fill-lower {
+  background: #0f0;
+  border-radius: 4px;
+}
+
+input[type=range].vaddonz-slider::-ms-fill-upper {
+  background: #888;
+  border-radius: 4px;
+}
