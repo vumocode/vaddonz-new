@@ -96,6 +96,10 @@
   flex: 1;
 }
 
+[id^="vaddonz-settings-"] .vaddonz-window-body {
+padding: 10px;
+}
+
 .vaddonz-content {
     display: flex;
     color: #ddd;
@@ -220,7 +224,6 @@
     font-size: 12px;
 }
 
-/* Chrome, Edge, Safari (WebKit) */
 .vaddonz-main.dodatki::-webkit-scrollbar {
   width: 8px;
   height: 8px;
