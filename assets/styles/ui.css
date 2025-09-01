@@ -270,116 +270,47 @@
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
 
-.vaddonz-slider-wrapper {
+.baddonz-slider-wrapper {
   position: relative;
   width: 100%;
-  max-width: 400px;
-  margin: 20px 0;
-  font-family: 'Work Sans', sans-serif;
-}
-
-.vaddonz-slider-wrapper label {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 14px;
-  color: #333;
-}
-
-.vaddonz-slider-wrapper input[type="range"] {
-  -webkit-appearance: none;
-  width: 100%;
   height: 8px;
+  background: #ccc; /* szary track */
   border-radius: 4px;
-  background: #ccc; /* track color */
-  outline: none;
   cursor: pointer;
 }
 
-.vaddonz-slider-wrapper input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
+.baddonz-slider-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #0f0; /* zielony fill */
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.baddonz-slider-thumb {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
+  background: #888; /* szara kulka */
   border-radius: 50%;
-  background: #888; /* default knob */
-  cursor: pointer;
-  transition: background 0.2s ease-in-out;
-  margin-top: -6px; /* center on track */
-  position: relative;
+  transition: background 0.2s;
+  pointer-events: none;
 }
 
-.vaddonz-slider-wrapper input[type="range"]:hover::-webkit-slider-thumb {
-  background: #0f0; /* hover knob */
+.baddonz-slider-wrapper:hover .baddonz-slider-thumb {
+  background: #0f0; /* zielona kulka po hover */
 }
 
-.vaddonz-slider-wrapper input[type="range"]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #888;
-  border: none;
-  transition: background 0.2s ease-in-out;
-}
-
-.vaddonz-slider-wrapper input[type="range"]:hover::-moz-range-thumb {
-  background: #0f0;
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-ms-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #888;
-  border: none;
-  transition: background 0.2s ease-in-out;
-}
-
-.vaddonz-slider-wrapper input[type="range"]:hover::-ms-thumb {
-  background: #0f0;
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-webkit-slider-runnable-track {
-  height: 8px;
-  border-radius: 4px;
-  background: linear-gradient(to right, #0f0 0%, #0f0 0%, #ccc 0%, #ccc 100%);
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-moz-range-track {
-  height: 8px;
-  border-radius: 4px;
-  background: #ccc;
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-moz-range-progress {
-  background-color: #0f0; 
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-ms-track {
-  height: 8px;
-  border-radius: 4px;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-ms-fill-lower {
-  background: #0f0;
-  border-radius: 4px;
-}
-
-.vaddonz-slider-wrapper input[type="range"]::-ms-fill-upper {
-  background: #ccc;
-  border-radius: 4px;
-}
-
-/* label nad kulką */
-.vaddonz-slider-label {
+.baddonz-slider-value-display {
   position: absolute;
   top: -25px;
+  transform: translateX(-50%);
   font-size: 12px;
   color: #0f0;
-  font-weight: 500;
-  transform: translateX(-50%);
   pointer-events: none;
-  transition: left 0.05s linear;
 }
