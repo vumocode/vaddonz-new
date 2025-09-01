@@ -270,100 +270,83 @@
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
 
+/* --- Customowy slider vaddonz --- */
 .vaddonz-slider-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+  margin: 12px 0;
+  font-family: sans-serif;
 }
 
 .vaddonz-slider-wrapper label {
-  margin-bottom: 10px;
-  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #333;
 }
 
-.vaddonz-slider-wrapper .vaddonz-slider-container {
+.vaddonz-slider-container {
   position: relative;
-  width: 100%;
-  max-width: 300px;
-  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.vaddonz-slider-wrapper .vaddonz-slider-value {
-  position: absolute;
-  top: 0;
-  font-weight: bold;
-  transform: translateX(-50%);
-}
-
-input[type=range].vaddonz-slider::-webkit-slider-thumb {
+.vaddonz-slider {
   -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #888;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.vaddonz-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
   width: 20px;
   height: 20px;
-  background: #aaa;
+  background: #ccc;
   border-radius: 50%;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  transition: background 0.2s;
-  border: 2px solid #0f0;
-  margin-top: -8px;
+  border: 2px solid #4CAF50;
+  cursor: url('https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png') 5 -5, auto;
+  transition: background 0.2s, transform 0.2s;
 }
 
-input[type=range].vaddonz-slider::-webkit-slider-thumb:hover {
-  background: #0f0;
+.vaddonz-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 50%;
+  border: 2px solid #4CAF50;
+  cursor: url('https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png') 5 -5, auto;
+  transition: background 0.2s, transform 0.2s;
 }
 
-input[type=range].vaddonz-slider::-webkit-slider-runnable-track {
+.vaddonz-slider::-webkit-slider-thumb:hover,
+.vaddonz-slider::-moz-range-thumb:hover {
+  background: #4CAF50;
+}
+
+.vaddonz-slider::-webkit-slider-runnable-track {
   height: 8px;
   background: #888;
   border-radius: 4px;
 }
 
-input[type=range].vaddonz-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background: #aaa;
-  border-radius: 50%;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  transition: background 0.2s;
-  border: 2px solid #0f0;
-}
-
-input[type=range].vaddonz-slider::-moz-range-thumb:hover {
-  background: #0f0;
-}
-
-input[type=range].vaddonz-slider::-moz-range-track {
+.vaddonz-slider::-moz-range-track {
   height: 8px;
   background: #888;
   border-radius: 4px;
 }
 
-input[type=range].vaddonz-slider::-ms-thumb {
-  width: 20px;
-  height: 20px;
-  background: #aaa;
-  border-radius: 50%;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  border: 2px solid #0f0;
-}
-
-input[type=range].vaddonz-slider::-ms-thumb:hover {
-  background: #0f0;
-}
-
-input[type=range].vaddonz-slider::-ms-track {
-  height: 8px;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-
-input[type=range].vaddonz-slider::-ms-fill-lower {
-  background: #0f0;
-  border-radius: 4px;
-}
-
-input[type=range].vaddonz-slider::-ms-fill-upper {
-  background: #888;
-  border-radius: 4px;
+.vaddonz-slider-value {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #4CAF50;
+  font-weight: bold;
+  pointer-events: none;
+  user-select: none;
 }
