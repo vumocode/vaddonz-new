@@ -96,12 +96,10 @@
   flex: 1;
 }
 
-[id^="vaddonz-settings-"] .vaddonz-content {
+[id^="vaddonz-settings-"] .vaddonz-window-body {
+    padding: 10px;
     display: flex;
-    color: #ddd;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
+    justify-content: center;
 }
 
 [id^="vaddonz-settings-"] .vaddonz-content {
