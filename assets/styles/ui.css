@@ -270,43 +270,43 @@
     background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
 }
 
-.baddonz-slider-wrapper {
+.vaddonz-slider-wrapper {
   position: relative;
   width: 100%;
   height: 8px;
-  background: #ccc; /* szary track */
+  background: #ccc;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.baddonz-slider-fill {
+.vaddonz-slider-fill {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 0%;
-  background-color: #0f0; /* zielony fill */
+  background-color: #0f0;
   border-radius: 4px;
   pointer-events: none;
 }
 
-.baddonz-slider-thumb {
+.vaddonz-slider-thumb {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background: #888; /* szara kulka */
+  background: #888;
   border-radius: 50%;
   transition: background 0.2s;
   pointer-events: none;
 }
 
-.baddonz-slider-wrapper:hover .baddonz-slider-thumb {
-  background: #0f0; /* zielona kulka po hover */
+.vaddonz-slider-wrapper:hover .baddonz-slider-thumb {
+  background: #0f0;
 }
 
-.baddonz-slider-value-display {
+.vaddonz-slider-value-display {
   position: absolute;
   top: -25px;
   transform: translateX(-50%);
