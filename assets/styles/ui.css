@@ -300,7 +300,7 @@
 
 .vaddonz-slider-wrapper {
     position: relative;
-    width: 93%;
+    width: 90%;
     height: 5px;
     margin: 10px 0px 10px 0px;
     background: #474545;
@@ -326,28 +326,35 @@
     width: 12px;
     height: 12px;
     border: 1px solid #000000;
-    box-shadow: 0px 0px 6px 0px black;
-    background: #545454;
+    box-shadow: 0px 0px 8px 0px black;
+    background: #595959;
     border-radius: 50%;
     transition: background 0.2s;
 }
 
 .vaddonz-slider-thumb:hover {
     background: #0f0;
-    box-shadow: 0px 0px 5px 2px #3cfb3c;
 }
 
 .vaddonz-slider-value-display {
+    display: flex;
     position: absolute;
-    bottom: -21px;
+    bottom: -5px;
     transform: translateX(-50%);
     margin-left: 7px;
-    font-size: 12px;
+    font-size: 10px;
+    width: 23px;
+    border-radius: 5px;
     color: #0f0;
     opacity: 0;
+    padding: 3px 3px 3px 3px;
+    line-height: 1;
     transition: opacity 0.3s;
     pointer-events: none;
     white-space: nowrap;
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+    background: #000000;
+    justify-content: center;
 }
 
 .vaddonz-slider-value-display.visible {
