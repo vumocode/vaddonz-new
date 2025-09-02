@@ -406,6 +406,26 @@ div[id="2"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/XU0EmWU.png);
 }
 
+div[id="6"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/XU0EmWU.png);
+}
+
+div[id="7"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/owLgCdd.gif);
+}
+
+div[id="8"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/fdbwSjr.gif);
+}
+
+div[id="9"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/jRybcjQ.gif);
+}
+
+div[id="10"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/pBEjYb1.gif);
+}
+
 .vaddonz-settings-widget.icon:hover {
     background-color: #55555570;
 }
