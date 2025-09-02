@@ -395,10 +395,8 @@
 }
 
 .vaddonz-settings-widget.icon.active {
-    border: 2px solid #ff9d00;
-    background-color: #eee;
+    border: 1px solid #4bff0087;
 }
-
 
 div[id="1"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/Y4g9pbP.gif);
