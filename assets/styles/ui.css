@@ -104,11 +104,12 @@
 
 [id^="vaddonz-settings-"] .vaddonz-content {
     display: flex;
-    color: #ddd;
+    color: white;
     height: auto;
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
 }
 
 .vaddonz-content {
@@ -155,10 +156,10 @@
 }
 
 .vaddonz-main-content {
-  padding: 5px;
-  color: white;
+    flex: 1;
+    padding: 5px;
+    color: white;
 }
-
 .vaddonz-main {
 }
 
@@ -324,8 +325,9 @@
     transform: translateY(-50%);
     width: 12px;
     height: 12px;
-    border: 1px solid black;
-    background: #888;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 6px 0px black;
+    background: #545454;
     border-radius: 50%;
     transition: background 0.2s;
 }
