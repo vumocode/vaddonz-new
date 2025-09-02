@@ -360,3 +360,32 @@
     height: 1px;
     margin: 12px 0;
 }
+
+.vaddonz-settings-widget {
+    padding: 10px;
+}
+
+.vaddonz-settings-widget.title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vaddonz-settings-widget .icons-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.vaddonz-settings-widget.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.vaddonz-settings-widget.icon:hover {
+    background-color: #bbb;
+}
