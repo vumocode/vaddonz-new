@@ -384,8 +384,17 @@
     border: 1px solid #999;
     border-radius: 4px;
     cursor: pointer;
+      background-repeat: no-repeat;
+    background-size: auto;
 }
 
+#1.vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/Y4g9pbP.gif);
+}
+
+#2.vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/XU0EmWU.png);
+}
 .vaddonz-settings-widget.icon:hover {
     background-color: #bbb;
 }
