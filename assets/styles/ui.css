@@ -441,3 +441,7 @@ background-image: url(https://i.imgur.com/ppmoZR8.gif);
 .vaddonz-settings-widget.icon:hover {
     background-color: #55555570;
 }
+
+[widget-name="vaddonz"] {
+  background: red;
+}
