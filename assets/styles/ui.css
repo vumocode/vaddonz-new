@@ -371,7 +371,6 @@
 .vaddonz-settings-widget.title {
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: bold;
 }
 
 .vaddonz-settings-widget .icons-container {
@@ -384,7 +383,7 @@
     width: 32px;
     height: 32px;
     background-color: #22222299;
-    border: 1px solid #999;
+    border: 1px solid #7f7f7f78;
     border-radius: 4px;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     transition: background 0.3s, color 0.3s;
@@ -400,6 +399,7 @@ background-image: url(https://i.imgur.com/Y4g9pbP.gif);
 #2.vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/XU0EmWU.png);
 }
+
 .vaddonz-settings-widget.icon:hover {
-    background-color: #bbb;
+    background-color: #55555570;
 }
