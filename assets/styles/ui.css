@@ -365,23 +365,25 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: baseline;
 }
 
 .vaddonz-settings-widget.title {
-    margin-bottom: 10px;
-    font-size: 16px;
+    display: flex;
+    margin: 10px;
+    font-size: 12px;
+    align-items: flex-start;
 }
 
 .vaddonz-settings-widget .icons-container {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .vaddonz-settings-widget.icon {
     width: 32px;
     height: 32px;
+    padding: 3px;
     background-color: #22222299;
     border: 1px solid #7f7f7f78;
     border-radius: 4px;
