@@ -452,3 +452,8 @@ background-image: url(https://i.imgur.com/ppmoZR8.gif);
 [widget-name="vaddonz"] {
   background: red;
 }
+
+button.vaddonz-tab.active {
+    background: #57565699;
+    border: 1px solid #8f8f8f78;
+}
