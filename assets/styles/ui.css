@@ -406,28 +406,36 @@ div[id="2"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/XU0EmWU.png);
 }
 
-div[id="5"].vaddonz-settings-widget.icon {
+div[id="3"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/iGmZKEl.gif);
 }
 
-div[id="6"].vaddonz-settings-widget.icon {
+div[id="4"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/ppmoZR8.gif);
 }
 
-div[id="7"].vaddonz-settings-widget.icon {
+div[id="5"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/owLgCdd.gif);
 }
 
-div[id="8"].vaddonz-settings-widget.icon {
+div[id="6"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/fdbwSjr.gif);
 }
 
-div[id="9"].vaddonz-settings-widget.icon {
+div[id="7"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/jRybcjQ.gif);
 }
 
-div[id="10"].vaddonz-settings-widget.icon {
+div[id="8"].vaddonz-settings-widget.icon {
 background-image: url(https://i.imgur.com/pBEjYb1.gif);
+}
+
+div[id="9"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/qWKo2Qe.gif);
+}
+
+div[id="10"].vaddonz-settings-widget.icon {
+background-image: url(https://i.imgur.com/iGmZKEl.gif);
 }
 
 .vaddonz-settings-widget.icon:hover {
