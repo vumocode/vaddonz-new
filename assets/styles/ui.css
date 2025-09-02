@@ -164,12 +164,12 @@
 }
 
 .vaddonz-main.dodatki, .vaddonz-main.personalizacja {
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-right: 4px;
-  height: 100%;
-  overflow-y: auto;
-  gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 4px;
+    height: 293px;
+    overflow-y: auto;
+    gap: 10px;
 }
 
 .vaddonz-card {
