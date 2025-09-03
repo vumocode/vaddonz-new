@@ -166,11 +166,11 @@
 
 .vaddonz-main.dodatki, .vaddonz-main.personalizacja {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding-right: 4px;
     max-height: 293px;
     overflow-y: auto;
-    gap: 10px;
+    row-gap: 5px;
 }
 
 .vaddonz-card {
@@ -179,7 +179,7 @@
     background: #22222299;
     border: 1px solid #7f7f7f78;
     padding: 5px;
-    width: 45%;
+    width: 47%;
     flex-direction: column;
     transition: background 0.3s, color 0.3s;
     box-shadow: inset 0px 0px 20px 0px #00000069;
@@ -191,6 +191,7 @@
 
 .vaddonz-card-description {
     padding-top: 2px;
+    margin-left: 2px;
     font-size: 11px;
 }
 
