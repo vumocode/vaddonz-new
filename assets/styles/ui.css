@@ -128,6 +128,7 @@
 }
 
 .vaddonz-tab {
+    box-shadow: inset 0px 0px 20px 0px #00000069;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     display: flex;
     align-items: center;
@@ -139,7 +140,7 @@
     border: 1px solid #7f7f7f78;
     background: #22222299;
     color: white;
-    transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s, border 0.3s;
     font-size: 12px;
     box-sizing: border-box;
 }
@@ -458,6 +459,5 @@ background-image: url(https://i.imgur.com/ppmoZR8.gif);
 }
 
 button.vaddonz-tab.active {
-    background: #3b3a3a99;
-    border: 1px solid #8f8f8f78;
+    background: #55555570;
 }
