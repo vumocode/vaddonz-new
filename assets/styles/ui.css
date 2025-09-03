@@ -369,22 +369,26 @@
 }
 
 .vaddonz-settings-widget {
+    border: 1px solid #7f7f7f78;
+    border-radius: 5px;
     display: flex;
     width: 100%;
     flex-direction: column;
+    padding: 10px;
 }
 
-.vaddonz-settings-widget.title {
+.vaddonz-settings-widget .title  {
     display: flex;
-    margin: 10px;
+    margin-bottom: 10px;
+    width: 100%;
     font-size: 12px;
-    align-items: flex-start;
 }
 
 .vaddonz-settings-widget .icons-container {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .vaddonz-settings-widget.icon {
