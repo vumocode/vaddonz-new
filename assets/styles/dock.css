@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.vaddonz-dock {
+.vaddonz-dock, .vaddonz-dock.collapsed {
     position: absolute;
     transition: top 0.3s ease;
     box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
@@ -14,6 +14,10 @@
     height: 25px;
     background: #00000099;
     width: 100%;
+}
+
+.vaddonz-dock.collapsed {
+    top: -26px;
 }
 
 button.vaddonz-dock-toggle {
@@ -50,10 +54,6 @@ button.vaddonz-dock-toggle {
     box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
     pointer-events: all;
-}
-
-.vaddonz-dock.collapsed {
-    top: -26px;
 }
 
 .vaddonz-dock-toggle.up {
