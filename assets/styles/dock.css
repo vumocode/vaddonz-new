@@ -33,18 +33,18 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
-  position: absolute;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-  top: 26px;
-  right: 26px;
-  z-index: -1;
-  width: 20px;
-  padding: 1px;
-  display: flex;
-  background: #00000099;
-  border-radius: 0 0 6px 6px;
-  fill: white;
-  box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
+    position: absolute;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    top: 26px;
+    right: 329px;
+    z-index: -1;
+    width: 20px;
+    padding: 1px;
+    display: flex;
+    background: #00000099;
+    border-radius: 0 0 6px 6px;
+    fill: white;
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
-  pointer-events: all;
+    pointer-events: all;
 }
