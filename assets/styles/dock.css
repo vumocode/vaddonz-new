@@ -35,11 +35,15 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-toggle i {
-  display: block;
-  transition: transform 0.4s ease;
-  transform-origin: 50% 50%;
-  font-size: 18px;
-  color: white;
+    display: flex;
+    width: 100%;
+    transform-origin: 50% 50%;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+      transform-origin: 50% 50%;
+  transition: transform 0.3s ease;
 }
 
 .vaddonz-dock-toggle.down i {
@@ -49,6 +53,7 @@ button.vaddonz-dock-toggle {
 .vaddonz-dock-toggle.up i {
   transform: rotate(180deg);
 }
+
 
 
 .vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
