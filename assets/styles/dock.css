@@ -1,5 +1,7 @@
 .vaddonz-overlay {
     display: flex;
+    position: absolute;
+    z-index: 9999;
     width: 100%;
     height: 100%;
 }
@@ -9,4 +11,20 @@
     height: 25px;
     background: #00000099;
     width: 100%;
+}
+
+button.vaddonz-dock.toggle {
+    pointer-events: all;
+}
+
+.vaddonz-dock.toggle svg path {
+  transition: transform 0.4s ease;
+}
+
+.vaddonz-dock.toggle.down svg path {
+  transform: translateY(0);
+}
+
+.vaddonz-dock.toggle.up svg path {
+  transform: translateY(-20px);
 }
