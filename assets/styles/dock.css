@@ -33,10 +33,11 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
-    position: absolute;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-    top: 26px;
-    right: 329px;
+    top: 87px;
     z-index: -1;
     width: 20px;
     padding: 1px;
