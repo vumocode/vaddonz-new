@@ -68,3 +68,11 @@ button.vaddonz-dock-toggle {
     fill: white;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
 }
+
+.vaddonz-dock-addon svg {
+  width: 100%;
+  height: auto;
+  shape-rendering: geometricPrecision;
+  image-rendering: optimizeQuality;
+  display: block;
+}
