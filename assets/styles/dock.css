@@ -32,19 +32,22 @@ button.vaddonz-dock-toggle {
   pointer-events: all;
 }
 
-.vaddonz-dock-toggle svg {
+.vaddonz-dock-toggle i {
   display: block;
-  transform-origin: 50% 50%;
   transition: transform 0.4s ease;
+  transform-origin: 50% 50%;
+  font-size: 18px;
+  color: white;
 }
 
-.vaddonz-dock-toggle.down svg {
-  transform: scaleY(1);
+.vaddonz-dock-toggle.down i {
+  transform: rotate(0deg);
 }
 
-.vaddonz-dock-toggle.up svg {
-  transform: scaleY(-1);
+.vaddonz-dock-toggle.up i {
+  transform: rotate(180deg);
 }
+
 
 .vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
     position: fixed;
