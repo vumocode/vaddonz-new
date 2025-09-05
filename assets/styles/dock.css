@@ -58,7 +58,7 @@ button.vaddonz-dock-toggle {
     transform: translateX(-50%);
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     margin-top: 29px;
-    width: 22px;
+    width: 30px;
     height: 18px;
     display: flex;
     background: #00000099;
