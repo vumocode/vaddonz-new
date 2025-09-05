@@ -84,6 +84,10 @@ button.vaddonz-dock-toggle {
     z-index: 1;
 }
 
+.vaddonz-dock-addon:hover{
+    background-color: gray;
+}
+
 .layer.interface-layer .positioner.top .hud-container {
     top: -5px !important;
 }
