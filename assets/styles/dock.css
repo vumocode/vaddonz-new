@@ -8,6 +8,7 @@
 
 .vaddonz-dock, .vaddonz-dock.collapsed {
     position: absolute;
+    top: 0px;
     transition: top 0.3s ease;
     box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,
     1px 1px 2px 2px #0c0d0d66;
@@ -61,5 +62,5 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-toggle.down {
-    top: 64px;
+    top: 60px;
 }
