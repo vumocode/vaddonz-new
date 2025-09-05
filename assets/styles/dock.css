@@ -25,7 +25,7 @@
     z-index: 1;
 }
 .vaddonz-dock.collapsed {
-    top: -26px;
+    top: 33px;
 }
 
 button.vaddonz-dock-toggle {
@@ -76,4 +76,12 @@ button.vaddonz-dock-toggle {
     justify-content: center;
     align-items: center;
     z-index: 1;
+}
+
+.layer.interface-layer .positioner.top .hud-container {
+    top: -5px !important;
+}
+
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname {
+    top: 4px !important;
 }
