@@ -3,3 +3,10 @@
     width: 100%;
     height: 100%;
 }
+
+.vaddonz-dock {
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+    height: 25px;
+    background: #00000099;
+    width: 100%;
+}
