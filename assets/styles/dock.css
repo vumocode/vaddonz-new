@@ -47,11 +47,11 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-toggle.down i {
-  transform: rotate(0deg);
+  transform: rotate(0deg) translateY(2px);
 }
 
 .vaddonz-dock-toggle.up i {
-  transform: rotate(180deg);
+  transform: rotate(180deg) translateY(2px);
 }
 
 
