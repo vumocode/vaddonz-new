@@ -37,13 +37,12 @@ button.vaddonz-dock-toggle {
 .vaddonz-dock-toggle i {
     display: flex;
     width: 100%;
-    transform-origin: 50% 50%;
     font-size: 18px;
     color: white;
     justify-content: center;
     align-items: center;
-      transform-origin: 50% 50%;
-  transition: transform 0.3s ease;
+    transform-origin: 50% 50%;
+    transition: transform 0.3s ease;
 }
 
 .vaddonz-dock-toggle.down i {
