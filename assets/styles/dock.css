@@ -21,3 +21,18 @@ button.vaddonz-dock-toggle {
   transition: all 0.4s ease;
 }
 
+.vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
+    pointer-events: all;
+    display: flex;
+    box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d, 1px 1px 2px 2px #0c0d0d66;
+    background: #00000099;
+    width: 20px;
+    float: right;
+    margin-right: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+    fill: white;
+    border-radius: 0px 0px 7px 7px;
+    padding: 1px;
+}
