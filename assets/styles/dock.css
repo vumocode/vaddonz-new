@@ -19,11 +19,13 @@
     height: 26px;
     background: #00000099;
     width: auto;
+    min-width: 50px;
     padding: 0px 10px 0px 10px;
     border-radius: 0px 0px 5px 5px;
     justify-content: center;
     z-index: 1;
 }
+
 .vaddonz-dock.collapsed {
     top: 32px;
 }
@@ -55,8 +57,8 @@ button.vaddonz-dock-toggle {
     transform: translateX(-50%);
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     margin-top: 27px;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 18px;
     display: flex;
     background: #00000099;
     border-radius: 0 0 6px 6px;
