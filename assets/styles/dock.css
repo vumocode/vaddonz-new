@@ -17,9 +17,20 @@ button.vaddonz-dock-toggle {
     pointer-events: all;
 }
 
-.vaddonz-dock-toggle svg path {
-  transition: all 0.4s ease;
+.vaddonz-dock-toggle svg {
+  display: block;
+  transform-origin: 50% 50%;
+  transition: transform 0.4s ease;
 }
+
+.vaddonz-dock-toggle.down svg {
+  transform: scaleY(1);
+}
+
+.vaddonz-dock-toggle.up svg {
+  transform: scaleY(-1);
+}
+
 
 .vaddonz-dock-toggle.down, .vaddonz-dock-toggle.up {
   position: absolute;
