@@ -85,8 +85,8 @@ button.vaddonz-dock-toggle {
     transition: background-color 0.2s ease;
 }
 
-.vaddonz-dock-addon:hover{
-    background-color: gray;
+.vaddonz-dock-addon:hover {
+    background-color: #313131;
 }
 
 .layer.interface-layer .positioner.top .hud-container {
