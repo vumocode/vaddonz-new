@@ -161,8 +161,20 @@
     padding: 5px;
     color: white;
 }
-.vaddonz-main {
+
+
+.vaddonz-main.hidden {
+  display: none;
 }
+
+.vaddonz-main.active {
+  display: flex;
+}
+
+.vaddonz-main.hidden {
+  opacity: 0;
+}
+
 
 .vaddonz-main.dodatki, .vaddonz-main.personalizacja {
     flex-wrap: wrap;
