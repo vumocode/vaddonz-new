@@ -60,11 +60,15 @@ button.vaddonz-dock-toggle {
 }
 
 .vaddonz-dock-addon {
+    display: flex;
     pointer-events: all;
     box-shadow: 0 0 1px #010101, 0 0 0 1px #ccc, 0 0 0 2px #0c0d0d,    1px 1px 2px 2px #0c0d0d66;
     width: 22px;
     height: 22px;
     margin: 1px 0px 0px 1px;
-    fill: white;
+    color: white;
+    font-size: 20px;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    justify-content: center;
+    align-items: center;
 }
