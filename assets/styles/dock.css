@@ -13,18 +13,18 @@
     width: 100%;
 }
 
-button.vaddonz-dock.toggle {
+button.vaddonz-dock-toggle {
     pointer-events: all;
 }
 
-.vaddonz-dock.toggle svg path {
+.vaddonz-dock-toggle svg path {
   transition: transform 0.4s ease;
 }
 
-.vaddonz-dock.toggle.down svg path {
+.vaddonz-dock-toggle.down svg path {
   transform: translateY(0);
 }
 
-.vaddonz-dock.toggle.up svg path {
+.vaddonz-dock-toggle.up svg path {
   transform: translateY(-20px);
 }
