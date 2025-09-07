@@ -9,15 +9,14 @@
 .vaddonz-dock, .vaddonz-dock.collapsed {
     display: flex;
     position: fixed;
-    top: 60px;
+    top: 61px;
     left: 50%;
     transform: translateX(-50%);
-    gap: 4px;
+    gap: 5px;
     transition: top 0.3s ease;
-    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66,
-    1px 1px 2px 2px #0c0d0d66;
-    height: 28px;
-    min-width: 30px;
+    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66;
+    height: 25px;
+    min-width: 26px;
     background: black;
     width: auto;
     justify-content: center;
@@ -25,7 +24,7 @@
 }
 
 .vaddonz-dock.collapsed {
-    top: 30px;
+    top: 34px;
 }
 
 button.vaddonz-dock-toggle {
@@ -60,14 +59,13 @@ button.vaddonz-dock-toggle {
     transform: translateX(-50%);
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     margin-top: 29px;
-    width: 30px;
+    width: 26px;
     height: 18px;
     display: flex;
     background: #00000099;
     border-radius: 0 0 6px 6px;
     fill: white;
-    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66,
-    1px 1px 2px 2px #0c0d0d66;
+    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66;
     pointer-events: all;
 }
 
