@@ -475,3 +475,18 @@ div[id="10"].vaddonz-settings-widget.icon {
 button.vaddonz-tab.active {
     background: #55555570;
 }
+
+#vaddonz-tooltip {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  font-size: 12px;
+}
+
+.vaddonz-tooltip-info {
+  background: blue;
+}
