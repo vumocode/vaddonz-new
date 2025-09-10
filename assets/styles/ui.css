@@ -488,8 +488,7 @@ button.vaddonz-tab.active {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    z-index: 1000;
-    font-family: 'Rubik', sans-serif;
+    z-index: 9999;
 }
 
 #vaddonz-tooltip .content{
