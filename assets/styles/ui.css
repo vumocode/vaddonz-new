@@ -1,5 +1,4 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .vaddonz-window {
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
@@ -11,7 +10,7 @@
     box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66;
     font-family: Arial, sans-serif;
     user-select: none;
-    z-index: 9999;
+    z-index: 9990;
     box-sizing: border-box;
     flex-direction: column;
 }
