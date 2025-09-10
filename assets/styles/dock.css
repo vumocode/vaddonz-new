@@ -91,9 +91,23 @@ button.vaddonz-dock-toggle {
 }
 
 .layer.interface-layer .positioner.top .hud-container {
-    top: -5px !important;
+    top: -4px !important;
+    background: url(https://i.imgur.com/mY6iHR5.png) -87px -109px;
 }
 
 .layer.interface-layer .positioner.top .hud-container .hero-data .heroname {
     top: 4px !important;
+}
+
+.pre-captcha.show {
+    top: 93px;
+}
+
+.pre-captcha {
+    width: 180px;
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top .3s ease;
 }
