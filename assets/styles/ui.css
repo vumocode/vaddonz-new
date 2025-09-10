@@ -490,7 +490,7 @@ button.vaddonz-tab.active {
     z-index: 1000;
 }
 
-#vaddonz-tooltip.content{
+#vaddonz-tooltip .content{
       background: rgba(0,0,0,.85);
     font-size: 12.8px;
     padding: 5px;
