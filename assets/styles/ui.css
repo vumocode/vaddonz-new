@@ -112,6 +112,15 @@
     gap: 5px;
 }
 
+.vaddonz-main.changelog {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 4px;
+    max-height: 293px;
+    overflow-y: auto;
+    row-gap: 5px;
+}
+
 .vaddonz-changelog.entry {
     display: flex;
     height: auto;
