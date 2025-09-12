@@ -112,6 +112,34 @@
     gap: 5px;
 }
 
+.vaddonz-changelog.entry {
+    display: flex;
+    height: auto;
+    background: #22222294;
+    border: 1px solid #7f7f7f78;
+    padding: 5px;
+    width: 100%;
+    flex-direction: column;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: inset 0px 0px 20px 0px #00000069;
+}
+
+.vaddonz-changelog.title {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.vaddonz-changelog.type {
+    margin: 0px 0px 0px 10px;
+    font-size: 12px;
+}
+
+.vaddonz-changelog.change {
+    font-size: 10px;
+    margin-left: 15px;
+}
+
 .vaddonz-content {
     display: flex;
     color: #ddd;
