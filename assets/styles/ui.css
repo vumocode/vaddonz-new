@@ -133,10 +133,17 @@
     box-shadow: inset 0px 0px 20px 0px #00000069;
 }
 
+.vaddonz-changelog.content {
+    padding: 0px 0px 5px 0px;
+}
+
 .vaddonz-changelog.title {
     font-size: 12px;
+    height: 20px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #7f7f7f78;
+    align-items: baseline;
 }
 
 .vaddonz-changelog.type {
@@ -147,7 +154,9 @@
 
 .vaddonz-changelog.change {
     font-size: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
+    padding-left: 7px;
+    border-left: 1px solid #eeeeee42;
 }
 
 .vaddonz-content {
