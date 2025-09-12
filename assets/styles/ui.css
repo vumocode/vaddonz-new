@@ -300,22 +300,22 @@
     font-size: 12px;
 }
 
-.vaddonz-main.dodatki::-webkit-scrollbar, .vaddonz-main.personalizacja::-webkit-scrollbar {
+.vaddonz-main::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   border-radius: 10px;
 }
 
-.vaddonz-main.dodatki::-webkit-scrollbar-track, .vaddonz-main.personalizacja::-webkit-scrollbar-track {
+.vaddonz-main::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(59, 59, 59, 0.205);
 }
 
-.vaddonz-main.dodatki::-webkit-scrollbar-thumb, .vaddonz-main.personalizacja::-webkit-scrollbar-thumb {
+.vaddonz-main::-webkit-scrollbar-thumb {
   background: #575757;
 }
 
-.vaddonz-main.dodatki::-webkit-scrollbar-thumb:hover, .vaddonz-main.personalizacja::-webkit-scrollbar-thumb:hover {
+.vaddonz-main::-webkit-scrollbar-thumb:hover{
   background: #555;
 }
 
