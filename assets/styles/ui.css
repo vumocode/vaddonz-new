@@ -132,6 +132,10 @@
     box-shadow: inset 0px 0px 20px 0px #00000069;
 }
 
+.vaddonz-changelog.entry:hover {
+    background: #55555570;
+}
+
 .vaddonz-changelog.content {
     padding: 5px 0px 10px 0px;
 }
