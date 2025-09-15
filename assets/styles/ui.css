@@ -116,7 +116,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 4px;
-    max-height: 293px;
+    max-height: 250px;
     overflow-y: auto;
     row-gap: 5px;
 }
@@ -230,7 +230,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 4px;
-    max-height: 293px;
+    max-height: 250px;
     overflow-y: auto;
     row-gap: 5px;
 }
