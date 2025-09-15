@@ -202,6 +202,23 @@
     display: flex;
 }
 
+.informacje-support {
+    display: flex;
+    justify-content: center;
+    background: #22222294;
+    border: 1px solid #7f7f7f78;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    flex-direction: column;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: inset 0px 0px 20px 0px #00000069;
+    align-items: center;
+}
+
+.informacje-support-entry {
+    display: flex;
+}
+
 .vaddonz-content {
     display: flex;
     color: #ddd;
