@@ -164,7 +164,8 @@
 
 .vaddonz-main.informacje {
     flex-direction: column;
-    gap: 8px;
+    align-items: center;
+    gap: 5px;
 }
 
 .informacje-version {
@@ -172,7 +173,7 @@
     justify-content: center;
     background: #22222294;
     border: 1px solid #7f7f7f78;
-    padding: 8px 0px 8px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100%;
     flex-direction: column;
     transition: background 0.3s, color 0.3s;
@@ -180,12 +181,16 @@
     align-items: center;
 }
 
+.informacje-version-entry {
+    display: flex;
+}
+
 .informacje-title {
     display: flex;
     justify-content: center;
     background: #22222294;
     border: 1px solid #7f7f7f78;
-    padding: 8px 0px 8px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100%;
     flex-direction: column;
     transition: background 0.3s, color 0.3s;
@@ -195,7 +200,6 @@
 
 .informacje-title-entry {
     display: flex;
-    margin-left: 5px;
 }
 
 .vaddonz-content {
