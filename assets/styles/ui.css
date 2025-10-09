@@ -653,3 +653,9 @@ button.vaddonz-tab.active {
     padding: 5px;
     word-break: break-word;
 }
+
+[id^="vaddonz-CG"] .vaddonz-content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
