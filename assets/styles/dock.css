@@ -13,6 +13,7 @@
 .vaddonz-dock, .vaddonz-dock.collapsed {
     display: flex;
     position: fixed;
+    pointer-events: all;
     top: 62px;
     left: 50%;
     transform: translateX(-50%);
