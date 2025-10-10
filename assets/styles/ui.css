@@ -686,3 +686,10 @@ button.vaddonz-button:hover {
     align-items: center;
     width: 100%;
 }
+
+body.ea-pointer-events .alerts-layer .big-messages .message,
+body.ea-pointer-events .console-layer .big-messages .message,
+body.ea-pointer-events .mAlert-layer .big-messages .message,
+body.ea-pointer-events .mAlert-mobile-layer .big-messages .message {
+  pointer-events: none !important;
+}
