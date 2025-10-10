@@ -694,9 +694,9 @@ body.ea-pointer-events .mAlert-mobile-layer .big-messages .message {
   pointer-events: none !important;
 }
 
-body.ea-alert-background .alerts-layer .big-messages .message,
-body.ea-alert-background .console-layer .big-messages .message,
-body.ea-alert-background .mAlert-layer .big-messages .message,
-body.ea-alert-background .mAlert-mobile-layer .big-messages .message {
+body.ea-alert-background .alerts-layer .big-messages .message .inner,
+body.ea-alert-background .console-layer .big-messages .message .inner,
+body.ea-alert-background .mAlert-layer .big-messages .message .inner,
+body.ea-alert-background .mAlert-mobile-layer .big-messages .message .inner {
   background: none !important;
 }
