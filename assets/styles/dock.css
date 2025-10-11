@@ -112,3 +112,11 @@ button.vaddonz-dock-toggle {
     transform: translateX(-50%);
     transition: top .3s ease;
 }
+
+.vaddonz-dock-addon.active {
+    background-color: #007acc;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
