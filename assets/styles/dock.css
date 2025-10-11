@@ -84,7 +84,7 @@ button.vaddonz-dock-toggle {
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .vaddonz-dock-addon:hover {
@@ -116,5 +116,4 @@ button.vaddonz-dock-toggle {
 .vaddonz-dock-addon.active {
     color: #00c500 !important;
     box-shadow: 0 0 0 1px #010101, 0 0 0 2px #00c500, 0 0 0 3px #0c0d0d !important;
-    transition: all 0.2s ease-in-out;
 }
