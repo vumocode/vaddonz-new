@@ -741,3 +741,23 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
   height: calc(100% + 57px) !important;
 }
 
+.c-colorpicker {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  vertical-align: middle;
+  appearance: none;
+}
+
+.c-colorpicker::-webkit-color-swatch {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.c-colorpicker::-moz-color-swatch {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
