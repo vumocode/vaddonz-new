@@ -779,6 +779,13 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
     background-color: rgb(163, 0, 171);
 }
 
+input.c-color__hex {
+    background-color: #000000;
+    color: white;
+    border: none;
+    box-shadow: 0 0 0 1px #010101, 0 0 0 2px #cccccc78, 0 0 0 3px #0c0d0d, 2px 2px 3px 3px #0c0d0d66;
+}
+
 label.c-color__label {
     padding-left: 20px;
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
