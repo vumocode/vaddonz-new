@@ -741,23 +741,21 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
   height: calc(100% + 57px) !important;
 }
 
-.c-colorpicker {
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-  vertical-align: middle;
-  appearance: none;
+.c-color__custom {
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #3b3b3b;
+    background: #292929;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
-.c-colorpicker::-webkit-color-swatch {
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-.c-colorpicker::-moz-color-swatch {
-  border-radius: 4px;
-  border: 1px solid #ccc;
+label.c-color__label {
+    position: relative;
+    padding-left: 20px;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+    user-select: none;
+    font-size: 12px;
 }
