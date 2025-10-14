@@ -741,6 +741,13 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
   height: calc(100% + 57px) !important;
 }
 
+body.ea-alert-color .alerts-layer .big-messages .message,
+body.ea-alert-color .console-layer .big-messages .message,
+body.ea-alert-color .mAlert-layer .big-messages .message,
+body.ea-alert-color .mAlert-mobile-layer .big-messages .message {
+  color: var(--ea-alert-color, #ffd700);
+}
+
 .color-vaddonz {
     position: relative;
 }
