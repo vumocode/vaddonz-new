@@ -781,7 +781,7 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
 
 label.c-color__label {
     padding-left: 20px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png) 5 -5, auto;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
     user-select: none;
     font-size: 12px;
 }
