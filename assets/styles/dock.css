@@ -28,7 +28,7 @@
 }
 
 .vaddonz-dock.collapsed {
-    top: 31px;
+    margin-top: -29px;
 }
 
 button.vaddonz-dock-toggle {
