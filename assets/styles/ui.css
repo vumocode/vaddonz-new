@@ -654,7 +654,7 @@ button.vaddonz-tab.active {
     word-break: break-word;
 }
 
-[id^="vaddonz-CG"] .vaddonz-content {
+[id^="vaddonz-incognito"] .vaddonz-content {
     padding: 10px;
     display: flex;
     justify-content: center;
