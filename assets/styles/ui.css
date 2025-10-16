@@ -687,18 +687,25 @@ button.vaddonz-button:hover {
     width: 100%;
 }
 
-body.lp-pointer-events .alerts-layer .big-messages .message,
-body.lp-pointer-events .console-layer .big-messages .message,
-body.lp-pointer-events .mAlert-layer .big-messages .message,
-body.lp-pointer-events .mAlert-mobile-layer .big-messages .message {
+body.lp-pointer .alerts-layer .big-messages .message,
+body.lp-pointer .console-layer .big-messages .message,
+body.lp-pointer .mAlert-layer .big-messages .message,
+body.lp-pointer .mAlert-mobile-layer .big-messages .message {
   pointer-events: none !important;
 }
 
-body.lp-alert-background .alerts-layer .big-messages .message .inner,
-body.lp-alert-background .console-layer .big-messages .message .inner,
-body.lp-alert-background .mAlert-layer .big-messages .message .inner,
-body.lp-alert-background .mAlert-mobile-layer .big-messages .message .inner {
+body.lp-background .alerts-layer .big-messages .message .inner,
+body.lp-background .console-layer .big-messages .message .inner,
+body.lp-background .mAlert-layer .big-messages .message .inner,
+body.lp-background .mAlert-mobile-layer .big-messages .message .inner {
   background: none !important;
+}
+
+body.lp-color .alerts-layer .big-messages .message,
+body.lp-color .console-layer .big-messages .message,
+body.lp-color .mAlert-layer .big-messages .message,
+body.lp-color .mAlert-mobile-layer .big-messages .message {
+  color: var(--lp-color, #ffd700) !important;
 }
 
 body.gf-widget-position .top-left.main-buttons-container.ui-droppable.static-widget-position {
@@ -739,13 +746,6 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
   left: -14px !important;
   width: calc(100% + 29px) !important;
   height: calc(100% + 57px) !important;
-}
-
-body.lp-alert-color .alerts-layer .big-messages .message,
-body.lp-alert-color .console-layer .big-messages .message,
-body.lp-alert-color .mAlert-layer .big-messages .message,
-body.lp-alert-color .mAlert-mobile-layer .big-messages .message {
-  color: var(--lp-alert-color, #ffd700);
 }
 
 .color-vaddonz {
