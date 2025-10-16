@@ -708,40 +708,40 @@ body.lp-color .mAlert-mobile-layer .big-messages .message {
   color: var(--lp-color, #ffd700) !important;
 }
 
-body.gf-widget-position .top-left.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget .top-left.main-buttons-container.ui-droppable.static-widget-position {
   margin-top: 3px !important;
 }
 
-body.gf-widget-position .top-right.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget .top-right.main-buttons-container.ui-droppable.static-widget-position {
   margin-top: 3px !important;
 }
 
-body.gf-widget-position .bottom-left.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget .bottom-left.main-buttons-container.ui-droppable.static-widget-position {
   margin-bottom: 3px !important;
 }
 
-body.gf-widget-position .bottom-right.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget .bottom-right.main-buttons-container.ui-droppable.static-widget-position {
   margin-bottom: 3px !important;
 }
 
-body.gf-loadout-visibility .item-builds.item-builds {
+body.ni-loadout .item-builds.item-builds {
   display: none !important;
 }
 
-body.gf-health-style .hpp {
+body.ni-health .hpp {
   color: black !important;
   margin-top: 8px !important;
 }
 
-body.gf-experience-visibility .exp-percent {
+body.ni-experience .exp-percent {
   display: none !important;
 }
 
-body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::before {
+body.ni-legendary.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::before {
   border: none !important;
 }
 
-body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::after {
+body.ni-legendary.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::after {
   top: -28px !important;
   left: -14px !important;
   width: calc(100% + 29px) !important;
