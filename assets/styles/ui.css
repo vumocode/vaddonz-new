@@ -687,17 +687,17 @@ button.vaddonz-button:hover {
     width: 100%;
 }
 
-body.ea-pointer-events .alerts-layer .big-messages .message,
-body.ea-pointer-events .console-layer .big-messages .message,
-body.ea-pointer-events .mAlert-layer .big-messages .message,
-body.ea-pointer-events .mAlert-mobile-layer .big-messages .message {
+body.lp-pointer-events .alerts-layer .big-messages .message,
+body.lp-pointer-events .console-layer .big-messages .message,
+body.lp-pointer-events .mAlert-layer .big-messages .message,
+body.lp-pointer-events .mAlert-mobile-layer .big-messages .message {
   pointer-events: none !important;
 }
 
-body.ea-alert-background .alerts-layer .big-messages .message .inner,
-body.ea-alert-background .console-layer .big-messages .message .inner,
-body.ea-alert-background .mAlert-layer .big-messages .message .inner,
-body.ea-alert-background .mAlert-mobile-layer .big-messages .message .inner {
+body.lp-alert-background .alerts-layer .big-messages .message .inner,
+body.lp-alert-background .console-layer .big-messages .message .inner,
+body.lp-alert-background .mAlert-layer .big-messages .message .inner,
+body.lp-alert-background .mAlert-mobile-layer .big-messages .message .inner {
   background: none !important;
 }
 
@@ -741,11 +741,11 @@ body.gf-legendary-outline.ln-active.ln-frame-loot-active .loot-wnd:has([data-ite
   height: calc(100% + 57px) !important;
 }
 
-body.ea-alert-color .alerts-layer .big-messages .message,
-body.ea-alert-color .console-layer .big-messages .message,
-body.ea-alert-color .mAlert-layer .big-messages .message,
-body.ea-alert-color .mAlert-mobile-layer .big-messages .message {
-  color: var(--ea-alert-color, #ffd700);
+body.lp-alert-color .alerts-layer .big-messages .message,
+body.lp-alert-color .console-layer .big-messages .message,
+body.lp-alert-color .mAlert-layer .big-messages .message,
+body.lp-alert-color .mAlert-mobile-layer .big-messages .message {
+  color: var(--lp-alert-color, #ffd700);
 }
 
 .color-vaddonz {
