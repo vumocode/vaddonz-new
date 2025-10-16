@@ -18,7 +18,7 @@
     left: 50%;
     transform: translateX(-50%);
     gap: 6px;
-    transition: top 0.3s ease;
+    transition: margin 0.3s ease;
     box-shadow: var(--vaddonz-border);
     height: 26px;
     min-width: 26px;
