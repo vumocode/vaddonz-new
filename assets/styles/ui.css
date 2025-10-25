@@ -634,6 +634,7 @@ button.vaddonz-tab.active {
 }
 
 #vaddonz-tooltip {
+    display: none;
     box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625;
     color: #e6d6bf;
     line-height: 14px;
