@@ -17,7 +17,7 @@
     left: 50%;
     margin-top: 60px;
     transform: translateX(-50%);
-    gap: 3px;
+    gap: 4px;
     padding: 3px;
     transition: margin 0.3s ease;
     min-width: 26px;
