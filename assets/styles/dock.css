@@ -16,7 +16,7 @@
     pointer-events: all;
     left: 50%;
     margin-top: 60px;
-    transform: translateX(calc(-50% + 0.5px));
+    transform: translateX(-50%);
     gap: 3px;
     padding: 3px;
     transition: margin 0.3s ease;
