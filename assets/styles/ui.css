@@ -581,43 +581,43 @@ a.informacje-support-button.informacje-support-howto2:hover {
     border: 1px solid #4bff0087;
 }
 
-div[id="1"].vaddonz-settings-widget.icon {
+div[data-id="1"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon01.gif);
 }
 
-div[id="2"].vaddonz-settings-widget.icon {
+div[data-id="2"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon02.gif);
 }
 
-div[id="3"].vaddonz-settings-widget.icon {
+div[data-id="3"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon03.gif);
 }
 
-div[id="4"].vaddonz-settings-widget.icon {
+div[data-id="4"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon04.gif);
 }
 
-div[id="5"].vaddonz-settings-widget.icon {
+div[data-id="5"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon05.gif);
 }
 
-div[id="6"].vaddonz-settings-widget.icon {
+div[data-id="6"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon06.gif);
 }
 
-div[id="7"].vaddonz-settings-widget.icon {
+div[data-id="7"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon07.gif);
 }
 
-div[id="8"].vaddonz-settings-widget.icon {
+div[data-id="8"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon08.gif);
 }
 
-div[id="9"].vaddonz-settings-widget.icon {
+div[data-id="9"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon09.gif);
 }
 
-div[id="10"].vaddonz-settings-widget.icon {
+div[data-id="10"].vaddonz-settings-widget.icon {
   background-image: url(https://vumocode.github.io/vaddonz-new/assets/img/icons/icon10.gif);
 }
 
