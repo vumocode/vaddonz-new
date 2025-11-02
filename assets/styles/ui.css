@@ -662,7 +662,7 @@ button.vaddonz-tab.active {
 button.vaddonz-button {
     display: flex;
     background: #22222294;
-    border: 1px solid gray;
+    border: 1px solid #424242;
     width: auto;
     height: 28px;
     padding: 0px 10px 0px 10px;
