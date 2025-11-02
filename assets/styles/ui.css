@@ -543,6 +543,7 @@ a.informacje-support-button.informacje-support-howto2:hover {
     border: 1px solid #7f7f7f78;
     border-radius: 5px;
     padding: 10px 10px 0px 10px;
+    width: 100%;
 }
 
 .vaddonz-settings-widget .title  {
@@ -799,6 +800,32 @@ label.c-color__label {
 }
 
 .vaddonz-main.ustawienia {
+    display: flex;
+    gap: 6px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vaddonz-settings-keybinds {
+    display: flex;
+    border: 1px solid #7f7f7f78;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.vaddonz-settings-dock {
+    display: flex;
+    border: 1px solid #7f7f7f78;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
