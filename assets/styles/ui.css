@@ -800,7 +800,6 @@ label.c-color__label {
 }
 
 .vaddonz-main.ustawienia {
-    display: flex;
     gap: 6px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
