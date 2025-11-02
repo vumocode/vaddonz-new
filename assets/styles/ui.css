@@ -797,3 +797,8 @@ label.c-color__label {
     user-select: none;
     font-size: 12px;
 }
+
+.vaddonz-main.ustawienia {
+    flex-direction: column;
+    gap: 10px;
+}
