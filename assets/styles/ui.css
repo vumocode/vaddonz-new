@@ -828,3 +828,38 @@ label.c-color__label {
     justify-content: center;
     gap: 5px;
 }
+
+.vaddonz-dock-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vaddonz-dock-reorder-window {
+  background: rgba(30, 30, 30, 0.95);
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.vaddonz-dock-reorder-window > div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.vaddonz-dock-reorder-window .vaddonz-dock-addon {
+  cursor: grab;
+  user-select: none;
+}
