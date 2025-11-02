@@ -856,27 +856,29 @@ label.c-color__label {
 }
 
 .vaddonz-dock-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 9998;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0 0 0 / 79%);
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png),    auto;
 }
 
 .vaddonz-dock-reorder-window {
-  background: rgba(30, 30, 30, 0.95);
-  border: 1px solid #555;
-  border-radius: 10px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
+    background: rgb(6 6 6);
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png),    auto;
 }
 
 .vaddonz-dock-reorder-window > div {
@@ -886,6 +888,6 @@ label.c-color__label {
 }
 
 .vaddonz-dock-reorder-window .vaddonz-dock-addon {
-  cursor: grab;
-  user-select: none;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,    auto;
+    user-select: none;
 }
