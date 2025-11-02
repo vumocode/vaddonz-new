@@ -1,18 +1,20 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 .vaddonz-window {
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
-    backdrop-filter: blur(2px);
-    position: fixed;
-    background-color: black;
-    color: #eee;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66;
-    font-family: Arial, sans-serif;
-    user-select: none;
-    z-index: 9990;
-    box-sizing: border-box;
-    flex-direction: column;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png),
+    auto;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  background-color: black;
+  color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #010101, 0 0 0 2px #ccc, 0 0 0 3px #0c0d0d,
+    2px 2px 3px 3px #0c0d0d66;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  z-index: 9990;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 
 #vaddonz-manager {
@@ -47,7 +49,9 @@
 }
 
 .vaddonz-header-title {
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/4n.png) 12 12, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/4n.png)
+      12 12,
+    auto;
   text-align: center;
   color: beige;
 }
@@ -69,7 +73,8 @@
 
 .vaddonz-btn {
   border: none;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 .vaddonz-btn.close {
@@ -97,209 +102,212 @@
 }
 
 [id^="vaddonz-settings-"] .vaddonz-window-body {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 [id^="vaddonz-settings-"] .vaddonz-content {
-    display: flex;
-    color: white;
-    height: auto;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
+  display: flex;
+  color: white;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 
 .vaddonz-main.changelog {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-right: 4px;
-    max-height: 250px;
-    overflow-y: auto;
-    row-gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+  row-gap: 5px;
 }
 
 .vaddonz-changelog.entry {
-    display: flex;
-    height: auto;
-    background: #22222294;
-    border: 1px solid #7f7f7f78;
-    width: 100%;
-    flex-direction: column;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0px 0px 20px 0px #00000069;
+  display: flex;
+  height: auto;
+  background: #22222294;
+  border: 1px solid #7f7f7f78;
+  width: 100%;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
 }
 
 .vaddonz-changelog.entry:hover {
-    background: #55555570;
+  background: #55555570;
 }
 
 .vaddonz-changelog.content {
-    padding: 5px 0px 10px 0px;
+  padding: 5px 0px 10px 0px;
 }
 
 .vaddonz-changelog.title {
-    font-size: 12px;
-    height: 20px;
-    display: flex;
-    padding: 2px;
-    justify-content: center;
-    border-bottom: 1px solid #7f7f7f78;
-    align-items: center;
+  font-size: 12px;
+  height: 20px;
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  border-bottom: 1px solid #7f7f7f78;
+  align-items: center;
 }
 
 .vaddonz-changelog.type {
-    margin: 5px 0px 0px 10px;
-    font-size: 11px;
+  margin: 5px 0px 0px 10px;
+  font-size: 11px;
 }
 
 .vaddonz-changelog.change {
-    font-size: 10px;
-    margin-left: 10px;
-    padding-left: 7px;
-    border-left: 1px solid #eeeeee42;
+  font-size: 10px;
+  margin-left: 10px;
+  padding-left: 7px;
+  border-left: 1px solid #eeeeee42;
 }
 
 .vaddonz-main.informacje {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .informacje-version {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #7f7f7f78;
-    padding: 5px 5px 5px 5px;
-    margin-left: auto;
-    font-size: 11px;
-    border-radius: 5px;
-    flex-direction: column;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0px 0px 20px 0px #00000069;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #7f7f7f78;
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  font-size: 11px;
+  border-radius: 5px;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
+  align-items: center;
 }
 
 .informacje-version-entry {
-    display: flex;
+  display: flex;
 }
 
 .informacje-title {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #7f7f7f78;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-    flex-direction: column;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0px 0px 20px 0px #00000069;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #7f7f7f78;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
+  align-items: center;
 }
 
 .informacje-title-entry {
-    display: flex;
+  display: flex;
 }
 
 .informacje-spacer {
-    margin-top: 91px;
+  margin-top: 91px;
 }
 
 .informacje-support {
-    display: flex;
-    border: 1px solid #7f7f7f78;
-    padding: 13px 0px 13px 0px;
-    width: 100%;
-    flex-direction: column;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0px 0px 20px 0px #00000069;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  border: 1px solid #7f7f7f78;
+  padding: 13px 0px 13px 0px;
+  width: 100%;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
+  align-items: center;
+  justify-content: center;
 }
 
 .informacje-support-entry {
-    display: flex;
+  display: flex;
 }
 
 .informacje-support-howto {
-    display: flex;
-    width: 100%;
-    margin-top: 5px;
-    justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  justify-content: space-evenly;
 }
 
 a.informacje-support-button.informacje-support-howto1 {
-    display: flex;
-    background: #22222294;
-    border: 1px solid gray;
-    width: 40%;
-    height: 25px;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0 0 6px 1px #000000bf;
-    text-decoration: none;
-    color: #37ff5b;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  display: flex;
+  background: #22222294;
+  border: 1px solid gray;
+  width: 40%;
+  height: 25px;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0 0 6px 1px #000000bf;
+  text-decoration: none;
+  color: #37ff5b;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 a.informacje-support-button.informacje-support-howto1:hover {
-    background-color: #55555570;
+  background-color: #55555570;
 }
 
 a.informacje-support-button.informacje-support-howto2 {
-    display: flex;
-    background: #22222294;
-    border: 1px solid gray;
-    width: 40%;
-    height: 25px;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0 0 6px 1px #000000bf;
-    text-decoration: none;
-    color: #2fc4ff;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  display: flex;
+  background: #22222294;
+  border: 1px solid gray;
+  width: 40%;
+  height: 25px;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0 0 6px 1px #000000bf;
+  text-decoration: none;
+  color: #2fc4ff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 a.informacje-support-button.informacje-support-howto2:hover {
-    background-color: #55555570;
+  background-color: #55555570;
 }
 
 .vaddonz-content {
-    display: flex;
-    color: #ddd;
-    height: auto;
+  display: flex;
+  color: #ddd;
+  height: auto;
 }
 
 .vaddonz-tabs {
-    display: flex;
-    flex-direction: column;
-    width: 130px;
-    gap: 8px;
-    border-right: 1px solid #444;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  gap: 8px;
+  border-right: 1px solid #444;
+  padding: 5px;
 }
 
 .vaddonz-tab {
-    box-shadow: inset 0px 0px 20px 0px #00000069;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    width: 130px;
-    height: 35px;
-    user-select: none;
-    border-radius: 5px;
-    border: 1px solid #7f7f7f78;
-    background: #22222294;
-    color: white;
-    transition: background 0.3s, color 0.3s, border 0.3s;
-    font-size: 12px;
-    box-sizing: border-box;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 130px;
+  height: 35px;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f78;
+  background: #22222294;
+  color: white;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+  font-size: 12px;
+  box-sizing: border-box;
 }
 
 .vaddonz-tab i {
@@ -314,11 +322,10 @@ a.informacje-support-button.informacje-support-howto2:hover {
 }
 
 .vaddonz-main-content {
-    flex: 1;
-    padding: 5px;
-    color: white;
+  flex: 1;
+  padding: 5px;
+  color: white;
 }
-
 
 .vaddonz-main.hidden {
   display: none;
@@ -332,67 +339,68 @@ a.informacje-support-button.informacje-support-howto2:hover {
   opacity: 0;
 }
 
-
-.vaddonz-main.dodatki, .vaddonz-main.personalizacja {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-right: 4px;
-    max-height: 250px;
-    overflow-y: auto;
-    row-gap: 5px;
+.vaddonz-main.dodatki,
+.vaddonz-main.personalizacja {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+  row-gap: 5px;
 }
 
 .vaddonz-card {
-    display: flex;
-    height: 67px;
-    background: #22222294;
-    border: 1px solid #7f7f7f78;
-    padding: 5px;
-    width: 47%;
-    flex-direction: column;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0px 0px 20px 0px #00000069;
+  display: flex;
+  height: 67px;
+  background: #22222294;
+  border: 1px solid #7f7f7f78;
+  padding: 5px;
+  width: 47%;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0px 0px 20px 0px #00000069;
 }
 
 .vaddonz-card:hover {
-    background: #55555570;
+  background: #55555570;
 }
 
 .vaddonz-card-description {
-    padding-top: 2px;
-    margin-left: 2px;
-    font-size: 11px;
+  padding-top: 2px;
+  margin-left: 2px;
+  font-size: 11px;
 }
 
-.checkbox-vaddonz [type='checkbox'] {
+.checkbox-vaddonz [type="checkbox"] {
   display: none;
 }
 
-.checkbox-vaddonz [type='checkbox'] + label::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: calc(50% - 8px);
-    width: 13px;
-    height: 13px;
-    border: 1px solid #3b3b3b;
-    background: #292929;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
+.checkbox-vaddonz [type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 8px);
+  width: 13px;
+  height: 13px;
+  border: 1px solid #3b3b3b;
+  background: #292929;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
-.checkbox-vaddonz [type='checkbox']:checked + label::after {
+.checkbox-vaddonz [type="checkbox"]:checked + label::after {
   opacity: 1;
   transform: scale(1);
 }
 
-.checkbox-vaddonz [type='checkbox'] + label::after {
-  content: '';
+.checkbox-vaddonz [type="checkbox"] + label::after {
+  content: "";
   position: absolute;
   left: 0;
   top: calc(50% - 8px);
   width: 15px;
   height: 15px;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") no-repeat center center;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230dff00' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e")
+    no-repeat center center;
   background-size: 100% 100%;
   opacity: 0;
   transform: scale(0.5);
@@ -400,11 +408,12 @@ a.informacje-support-button.informacje-support-howto2:hover {
 }
 
 .checkbox-vaddonz .c-checkbox__label {
-    position: relative;
-    padding-left: 20px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-    user-select: none;
-    font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
+  user-select: none;
+  font-size: 12px;
 }
 
 .vaddonz-main::-webkit-scrollbar {
@@ -422,29 +431,30 @@ a.informacje-support-button.informacje-support-howto2:hover {
   background: #575757;
 }
 
-.vaddonz-main::-webkit-scrollbar-thumb:hover{
+.vaddonz-main::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
 .vaddonz-card-header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vaddonz-card-controls.right {
-    margin-top: -1px;
-    display: flex;
-    width: 40px;
-    gap: 3px;
-    justify-content: right;
-    flex-direction: row-reverse;
-    align-items: center;
+  margin-top: -1px;
+  display: flex;
+  width: 40px;
+  gap: 3px;
+  justify-content: right;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .vaddonz-btn.settings {
-    width: 13px;
-    height: 13px;
-    background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -607px -117px;
+  width: 13px;
+  height: 13px;
+  background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png)
+    no-repeat -607px -117px;
 }
 
 .vaddonz-btn.settings:hover {
@@ -452,80 +462,83 @@ a.informacje-support-button.informacje-support-howto2:hover {
 }
 
 .vaddonz-btn.info {
-    width: 13px;
-    height: 13px;
-    background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png) no-repeat -659px -100px;
+  width: 13px;
+  height: 13px;
+  background: url(https://vumocode.github.io/vaddonz-new/assets/img/buttony.png)
+    no-repeat -659px -100px;
 }
 
 .vaddonz-slider-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .vaddonz-slider-label {
-    font-size: 11px;
-    color: #ddd;
+  font-size: 11px;
+  color: #ddd;
 }
 
 .vaddonz-slider-wrapper {
-    position: relative;
-    width: 90%;
-    height: 5px;
-    margin: 10px 0px 10px 0px;
-    background: #474545;
-    border-radius: 4px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  position: relative;
+  width: 90%;
+  height: 5px;
+  margin: 10px 0px 10px 0px;
+  background: #474545;
+  border-radius: 4px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 .vaddonz-slider-fill {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 0%;
-    background-color: #0f0;
-    border-radius: 4px;
-    pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #0f0;
+  border-radius: 4px;
+  pointer-events: none;
 }
 
 .vaddonz-slider-thumb {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
-    border: 1px solid #000000;
-    box-shadow: 0px 0px 8px 0px black;
-    background: #595959;
-    border-radius: 50%;
-    transition: background 0.2s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 8px 0px black;
+  background: #595959;
+  border-radius: 50%;
+  transition: background 0.2s;
 }
 
 .vaddonz-slider-thumb:hover {
-    background: #0f0;
+  background: #0f0;
 }
 
 .vaddonz-slider-value-display {
-    display: flex;
-    position: absolute;
-    bottom: -5px;
-    transform: translateX(-50%);
-    margin-left: 7px;
-    font-size: 10px;
-    width: 23px;
-    border-radius: 5px;
-    color: #0f0;
-    opacity: 0;
-    padding: 3px 3px 3px 3px;
-    line-height: 1;
-    transition: opacity 0.3s;
-    pointer-events: none;
-    white-space: nowrap;
-    box-shadow: 0 0 0 1px #010101,0 0 0 2px #ccc,0 0 0 3px #0c0d0d,2px 2px 3px 3px #0c0d0d66;
-    background: #000000;
-    justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: -5px;
+  transform: translateX(-50%);
+  margin-left: 7px;
+  font-size: 10px;
+  width: 23px;
+  border-radius: 5px;
+  color: #0f0;
+  opacity: 0;
+  padding: 3px 3px 3px 3px;
+  line-height: 1;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 0 0 1px #010101, 0 0 0 2px #ccc, 0 0 0 3px #0c0d0d,
+    2px 2px 3px 3px #0c0d0d66;
+  background: #000000;
+  justify-content: center;
 }
 
 .vaddonz-slider-value-display.visible {
@@ -533,50 +546,51 @@ a.informacje-support-button.informacje-support-howto2:hover {
 }
 
 .vaddonz-separator {
-    background-color: #444444;
-    width: 100%;
-    height: 1px;
-    margin: 5px 0;
+  background-color: #444444;
+  width: 100%;
+  height: 1px;
+  margin: 5px 0;
 }
 
 .vaddonz-settings-widget {
-    border: 1px solid #7f7f7f78;
-    border-radius: 5px;
-    padding: 10px 10px 0px 10px;
-    width: 100%;
+  border: 1px solid #7f7f7f78;
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px;
+  width: 100%;
 }
 
-.vaddonz-settings-widget .title  {
-    display: flex;
-    margin-bottom: 10px;
-    width: 100%;
-    font-size: 12px;
+.vaddonz-settings-widget .title {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 12px;
 }
 
 .vaddonz-settings-widget .icons-container {
-    display: flex;
-    width: 100%;
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .vaddonz-settings-widget.icon {
-    width: 32px;
-    height: 32px;
-    padding: 3px;
-    background-color: #22222299;
-    border: 1px solid #7f7f7f78;
-    border-radius: 4px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-    transition: background 0.3s, color 0.3s;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  background-color: #22222299;
+  border: 1px solid #7f7f7f78;
+  border-radius: 4px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
+  transition: background 0.3s, color 0.3s;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 
 .vaddonz-settings-widget.icon.active {
-    border: 1px solid #4bff0087;
+  border: 1px solid #4bff0087;
 }
 
 div[data-id="1"].vaddonz-settings-widget.icon {
@@ -620,7 +634,7 @@ div[data-id="10"].vaddonz-settings-widget.icon {
 }
 
 .vaddonz-settings-widget.icon:hover {
-    background-color: #55555570;
+  background-color: #55555570;
 }
 
 [widget-name="vaddonz"] {
@@ -628,63 +642,66 @@ div[data-id="10"].vaddonz-settings-widget.icon {
 }
 
 button.vaddonz-tab.active {
-    background: #55555570;
+  background: #55555570;
 }
 
 #vaddonz-tooltip {
-    display: none;
-    box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625;
-    color: #e6d6bf;
-    line-height: 14px;
-    max-width: 200px;
-    min-width: 150px;
-    position: absolute;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    z-index: 9999;
+  display: none;
+  box-shadow: 0 0 0 0 #2b282a, 0 0 0 1px #353131, 0 0 0 2px #191311,
+    0 0 0 3px #2b2727, 0 0 0 4px #59595a, 0 0 0 5px #9da1a7, 0 0 0 6px #5a585b,
+    0 0 0 7px #2c2625;
+  color: #e6d6bf;
+  line-height: 14px;
+  max-width: 200px;
+  min-width: 150px;
+  position: absolute;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 9999;
 }
 
-#vaddonz-tooltip .content{
-      background: rgba(0,0,0,.85);
-    font-size: 12.8px;
-    padding: 5px;
-    word-break: break-word;
+#vaddonz-tooltip .content {
+  background: rgba(0, 0, 0, 0.85);
+  font-size: 12.8px;
+  padding: 5px;
+  word-break: break-word;
 }
 
 [id^="vaddonz-incognito"] .vaddonz-content {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 button.vaddonz-button {
-    display: flex;
-    background: #22222294;
-    border: 1px solid #424242;
-    width: auto;
-    height: 28px;
-    padding: 0px 10px 0px 10px;
-    transition: background 0.3s, color 0.3s;
-    box-shadow: inset 0 0 6px 1px #080808bf;
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
+  display: flex;
+  background: #22222294;
+  border: 1px solid #424242;
+  width: auto;
+  height: 28px;
+  padding: 0px 10px 0px 10px;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: inset 0 0 6px 1px #080808bf;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
 }
 
 button.vaddonz-button:hover {
-    background-color: #55555570;
+  background-color: #55555570;
 }
 
 .button-vaddonz-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 body.lp-pointer .alerts-layer .big-messages .message,
@@ -708,19 +725,23 @@ body.lp-color .mAlert-mobile-layer .big-messages .message {
   color: var(--lp-color, #ffd700) !important;
 }
 
-body.ni-widget .top-left.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget
+  .top-left.main-buttons-container.ui-droppable.static-widget-position {
   margin-top: 3px !important;
 }
 
-body.ni-widget .top-right.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget
+  .top-right.main-buttons-container.ui-droppable.static-widget-position {
   margin-top: 3px !important;
 }
 
-body.ni-widget .bottom-left.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget
+  .bottom-left.main-buttons-container.ui-droppable.static-widget-position {
   margin-bottom: 3px !important;
 }
 
-body.ni-widget .bottom-right.main-buttons-container.ui-droppable.static-widget-position {
+body.ni-widget
+  .bottom-right.main-buttons-container.ui-droppable.static-widget-position {
   margin-bottom: 3px !important;
 }
 
@@ -737,11 +758,13 @@ body.ni-experience .exp-percent {
   display: none !important;
 }
 
-body.ni-legendary.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::before {
+body.ni-legendary.ln-active.ln-frame-loot-active
+  .loot-wnd:has([data-item-type="t-leg"]).border-window::before {
   border: none !important;
 }
 
-body.ni-legendary.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t-leg]).border-window::after {
+body.ni-legendary.ln-active.ln-frame-loot-active
+  .loot-wnd:has([data-item-type="t-leg"]).border-window::after {
   top: -28px !important;
   left: -14px !important;
   width: calc(100% + 29px) !important;
@@ -749,84 +772,87 @@ body.ni-legendary.ln-active.ln-frame-loot-active .loot-wnd:has([data-item-type=t
 }
 
 .color-vaddonz {
-    position: relative;
+  position: relative;
 }
 
 .c-color__custom {
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5, auto;
-    content: '';
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    border: 1px solid #3b3b3b;
-    background: #292929;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    auto;
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #3b3b3b;
+  background: #292929;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .c-color__window {
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    padding: 10px;
-    background-color: rgb(0 0 0);
-    border: 1px solid rgb(170, 170, 170);
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
-    display: flex;
-    z-index: 1000;
-    flex-direction: column;
-    gap: 8px;
-    width: 200px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  padding: 10px;
+  background-color: rgb(0 0 0);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+  display: flex;
+  z-index: 1000;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
 }
 
 .c-color__preview {
-    width: 100%;
-    height: 30px;
-    border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
 }
 
 input.c-color__hex {
-    background-color: #000000;
-    color: white;
-    border: none;
-    box-shadow: 0 0 0 1px #010101, 0 0 0 2px #cccccc78, 0 0 0 3px #0c0d0d, 2px 2px 3px 3px #0c0d0d66;
+  background-color: #000000;
+  color: white;
+  border: none;
+  box-shadow: 0 0 0 1px #010101, 0 0 0 2px #cccccc78, 0 0 0 3px #0c0d0d,
+    2px 2px 3px 3px #0c0d0d66;
 }
 
 label.c-color__label {
-    padding-left: 20px;
-    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png), auto;
-    user-select: none;
-    font-size: 12px;
+  padding-left: 20px;
+  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/1n.png),
+    auto;
+  user-select: none;
+  font-size: 12px;
 }
 
 .vaddonz-main.ustawienia {
-    gap: 6px 0px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  gap: 6px 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .vaddonz-settings-keybinds {
-    display: flex;
-    border: 1px solid #7f7f7f78;
-    border-radius: 5px;
-    padding: 10px;
-    width: 45%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  border: 1px solid #7f7f7f78;
+  border-radius: 5px;
+  padding: 10px;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .vaddonz-settings-dock {
-    display: flex;
-    border: 1px solid #7f7f7f78;
-    border-radius: 5px;
-    padding: 10px;
-    width: 45%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  border: 1px solid #7f7f7f78;
+  border-radius: 5px;
+  padding: 10px;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .vaddonz-dock-overlay {
@@ -846,10 +872,10 @@ label.c-color__label {
   background: rgba(30, 30, 30, 0.95);
   border: 1px solid #555;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 
