@@ -676,20 +676,20 @@ button.vaddonz-tab.active {
 }
 
 button.vaddonz-button {
-  display: flex;
-  background: #22222294;
-  border: 1px solid #424242;
-  width: auto;
-  height: 28px;
-  padding: 0px 10px 0px 10px;
-  transition: background 0.3s, color 0.3s;
-  box-shadow: inset 0 0 6px 1px #080808bf;
-  text-decoration: none;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-  cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
+    display: flex;
+    background: #22222294;
+    border: 1px solid #404040;
+    width: auto;
+    height: 28px;
+    padding: 0px 18px 0px 18px;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: inset 0 0 6px 1px #080808bf;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,
     auto;
 }
 
@@ -698,10 +698,9 @@ button.vaddonz-button:hover {
 }
 
 .button-vaddonz-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body.lp-pointer .alerts-layer .big-messages .message,
@@ -832,27 +831,26 @@ label.c-color__label {
 }
 
 .vaddonz-settings-keybinds {
-  display: flex;
-  border: 1px solid #7f7f7f78;
-  border-radius: 5px;
-  padding: 10px;
-  width: 45%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+    display: flex;
+    border: 1px solid #7f7f7f78;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .vaddonz-settings-dock {
-  display: flex;
-  border: 1px solid #7f7f7f78;
-  border-radius: 5px;
-  padding: 10px;
-  width: 45%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+    display: flex;
+    border: 1px solid #7f7f7f78;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .vaddonz-dock-overlay {
