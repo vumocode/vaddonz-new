@@ -102,19 +102,17 @@
 }
 
 [id^="vaddonz-settings-"] .vaddonz-window-body {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
+    padding: 10px;
 }
 
 [id^="vaddonz-settings-"] .vaddonz-content {
-  display: flex;
-  color: white;
-  height: auto;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
+    display: flex;
+    color: white;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .vaddonz-main.changelog {
@@ -771,7 +769,8 @@ body.ni-legendary.ln-active.ln-frame-loot-active
 }
 
 .color-vaddonz {
-  position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .c-color__custom {
@@ -888,4 +887,8 @@ label.c-color__label {
 .vaddonz-dock-reorder-window .vaddonz-dock-addon {
     cursor: url(https://vumocode.github.io/vaddonz-new/assets/img/cursor/5n.png) 5 -5,    auto;
     user-select: none;
+}
+
+.checkbox-vaddonz {
+    width: 100%;
 }
